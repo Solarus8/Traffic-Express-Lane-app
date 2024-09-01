@@ -1,0 +1,654 @@
+https://epsg.io/map#srs=4326&x=-105.145299&y=39.944792&z=16&layer=streets
+Latitude: 39.944792, Longitude: -105.145299
+https://epsg.io/map#srs=4326&x=-105.142429&y=39.939088&z=14&layer=streets
+Latitude: 39.939088, Longitude: -105.142429
+https://epsg.io/map#srs=4326&x=-105.138551&y=39.931547&z=13&layer=streets
+Latitude: 39.931547, Longitude: -105.138551
+https://epsg.io/map#srs=4326&x=-105.187295&y=39.956508&z=12&layer=streets
+Latitude: 39.956508, Longitude: -105.187295
+https://epsg.io/map#srs=4326&x=-105.111940&y=39.934863&z=12&layer=streets
+Latitude: 39.934863, Longitude: -105.111940
+https://epsg.io/map#srs=4326&x=-105.107329&y=39.933283&z=12&layer=streets
+Latitude: 39.933283, Longitude: -105.107329
+https://epsg.io/map#srs=4326&x=-105.103406&y=39.931703&z=12&layer=streets
+Latitude: 39.931703, Longitude: -105.103406
+https://epsg.io/map#srs=4326&x=-105.099972&y=39.930387&z=12&layer=streets
+Latitude: 39.930387, Longitude: -105.099972
+https://epsg.io/map#srs=4326&x=-105.096735&y=39.929221&z=12&layer=streets
+Latitude: 39.929221, Longitude: -105.096735
+https://epsg.io/map#srs=4326&x=-105.093645&y=39.928168&z=12&layer=streets
+Latitude: 39.928168, Longitude: -105.093645
+https://epsg.io/map#srs=4326&x=-105.090555&y=39.927115&z=12&layer=streets
+Latitude: 39.927115, Longitude: -105.090555
+https://epsg.io/map#srs=4326&x=-105.087269&y=39.925911&z=12&layer=streets
+Latitude: 39.925911, Longitude: -105.087269
+https://epsg.io/map#srs=4326&x=-105.085749&y=39.925385&z=12&layer=streets
+Latitude: 39.925385, Longitude: -105.085749
+https://epsg.io/map#srs=4326&x=-105.078049&y=39.920119&z=12&layer=streets
+Latitude: 39.920119, Longitude: -105.078049
+https://epsg.io/map#srs=4326&x=-105.087515&y=39.916056&z=12&layer=streets
+Latitude: 39.916056, Longitude: -105.087515
+https://epsg.io/map#srs=4326&x=-105.088348&y=39.911956&z=12&layer=streets
+Latitude: 39.911956, Longitude: -105.088348
+https://epsg.io/map#srs=4326&x=-105.091095&y=39.899841&z=12&layer=streets
+Latitude: 39.899841, Longitude: -105.091095
+https://epsg.io/map#srs=4326&x=-105.091095&y=39.899578&z=12&layer=streets
+Latitude: 39.899578, Longitude: -105.091095
+https://epsg.io/map#srs=4326&x=-105.091095&y=39.899314&z=12&layer=streets
+Latitude: 39.899314, Longitude: -105.091095
+https://epsg.io/map#srs=4326&x=-105.091095&y=39.899051&z=12&layer=streets
+Latitude: 39.899051, Longitude: -105.091095
+https://epsg.io/map#srs=4326&x=-105.091095&y=39.898788&z=12&layer=streets
+Latitude: 39.898788, Longitude: -105.091095
+https://epsg.io/map#srs=4326&x=-105.069956&y=39.874137&z=12&layer=streets
+Latitude: 39.874137, Longitude: -105.069956
+https://epsg.io/map#srs=4326&x=-104.967940&y=39.825470&z=14&layer=streets
+Latitude: 39.825470, Longitude: -104.967940
+https://epsg.io/map#srs=4326&x=-104.968725&y=39.826458&z=14&layer=streets
+Latitude: 39.826458, Longitude: -104.968725
+https://epsg.io/map#srs=4326&x=-104.969608&y=39.827466&z=14&layer=streets
+Latitude: 39.827466, Longitude: -104.969608
+https://epsg.io/map#srs=4326&x=-104.970515&y=39.828257&z=14&layer=streets
+Latitude: 39.828257, Longitude: -104.970515
+https://epsg.io/map#srs=4326&x=-104.971594&y=39.829349&z=14&layer=streets
+Latitude: 39.829349, Longitude: -104.971594
+https://epsg.io/map#srs=4326&x=-104.972575&y=39.830272&z=14&layer=streets
+Latitude: 39.830272, Longitude: -104.972575
+https://epsg.io/map#srs=4326&x=-104.973127&y=39.830856&z=14&layer=streets
+Latitude: 39.830856, Longitude: -104.973127
+https://epsg.io/map#srs=4326&x=-104.973556&y=39.831251&z=14&layer=streets
+Latitude: 39.831251, Longitude: -104.973556
+https://epsg.io/map#srs=4326&x=-104.973850&y=39.831713&z=14&layer=streets
+Latitude: 39.831713, Longitude: -104.973850
+https://epsg.io/map#srs=4326&x=-104.974108&y=39.832108&z=14&layer=streets
+Latitude: 39.832108, Longitude: -104.974108
+https://epsg.io/map#srs=4326&x=-104.974279&y=39.832372&z=14&layer=streets
+Latitude: 39.832372, Longitude: -104.974279
+https://epsg.io/map#srs=4326&x=-104.981158&y=39.833059&z=14&layer=streets
+Latitude: 39.833059, Longitude: -104.981158
+https://epsg.io/map#srs=4326&x=-104.984846&y=39.827869&z=16&layer=streets
+Latitude: 39.827869, Longitude: -104.984846
+https://epsg.io/map#srs=4326&x=-104.984824&y=39.827869&z=16&layer=streets
+Latitude: 39.827869, Longitude: -104.984824
+https://epsg.io/map#srs=4326&x=-104.984291&y=39.827612&z=16&layer=streets
+Latitude: 39.827612, Longitude: -104.984291
+https://epsg.io/map#srs=4326&x=-104.984312&y=39.827595&z=16&layer=streets
+Latitude: 39.827595, Longitude: -104.984312
+https://epsg.io/map#srs=4326&x=-104.984334&y=39.827579&z=16&layer=streets
+Latitude: 39.827579, Longitude: -104.984334
+https://epsg.io/map#srs=4326&x=-104.984377&y=39.827562&z=16&layer=streets
+Latitude: 39.827562, Longitude: -104.984377
+https://epsg.io/map#srs=4326&x=-104.984475&y=39.827513&z=16&layer=streets
+Latitude: 39.827513, Longitude: -104.984475
+https://epsg.io/map#srs=4326&x=-104.985578&y=39.827259&z=16&layer=streets
+Latitude: 39.827259, Longitude: -104.985578
+https://epsg.io/map#srs=4326&x=-104.985943&y=39.827308&z=16&layer=streets
+Latitude: 39.827308, Longitude: -104.985943
+https://epsg.io/map#srs=4326&x=-104.986287&y=39.827424&z=16&layer=streets
+Latitude: 39.827424, Longitude: -104.986287
+https://epsg.io/map#srs=4326&x=-104.986317&y=39.827433&z=16&layer=streets
+Latitude: 39.827433, Longitude: -104.986317
+https://epsg.io/map#srs=4326&x=-104.986329&y=39.827440&z=16&layer=streets
+Latitude: 39.827440, Longitude: -104.986329
+https://epsg.io/map#srs=4326&x=-104.986746&y=39.827548&z=16&layer=streets
+Latitude: 39.827548, Longitude: -104.986746
+https://epsg.io/map#srs=4326&x=-104.986670&y=39.827555&z=16&layer=streets
+Latitude: 39.827555, Longitude: -104.986670
+https://epsg.io/map#srs=4326&x=-104.986660&y=39.827631&z=16&layer=streets
+Latitude: 39.827631, Longitude: -104.986660
+https://epsg.io/map#srs=4326&x=-104.986648&y=39.827697&z=16&layer=streets
+Latitude: 39.827697, Longitude: -104.986648
+https://epsg.io/map#srs=4326&x=-104.988947&y=39.827209&z=16&layer=streets
+Latitude: 39.827209, Longitude: -104.988947
+https://epsg.io/map#srs=4326&x=-104.989226&y=39.827242&z=16&layer=streets
+Latitude: 39.827242, Longitude: -104.989226
+https://epsg.io/map#srs=4326&x=-104.989548&y=39.827292&z=16&layer=streets
+Latitude: 39.827292, Longitude: -104.989548
+https://epsg.io/map#srs=4326&x=-104.990042&y=39.827374&z=16&layer=streets
+Latitude: 39.827374, Longitude: -104.990042
+https://epsg.io/map#srs=4326&x=-104.990428&y=39.827407&z=16&layer=streets
+Latitude: 39.827407, Longitude: -104.990428
+https://epsg.io/map#srs=4326&x=-104.990685&y=39.827457&z=16&layer=streets
+Latitude: 39.827457, Longitude: -104.990685
+https://epsg.io/map#srs=4326&x=-104.990845&y=39.827506&z=16&layer=streets
+Latitude: 39.827506, Longitude: -104.990845
+https://epsg.io/map#srs=4326&x=-104.990964&y=39.827522&z=16&layer=streets
+Latitude: 39.827522, Longitude: -104.990964
+https://epsg.io/map#srs=4326&x=-104.991157&y=39.827522&z=16&layer=streets
+Latitude: 39.827522, Longitude: -104.991157
+https://epsg.io/map#srs=4326&x=-104.991286&y=39.827522&z=16&layer=streets
+Latitude: 39.827522, Longitude: -104.991286
+https://epsg.io/map#srs=4326&x=-104.991262&y=39.827539&z=16&layer=streets
+Latitude: 39.827539, Longitude: -104.991262
+https://epsg.io/map#srs=4326&x=-104.991154&y=39.827572&z=16&layer=streets
+Latitude: 39.827572, Longitude: -104.991154
+https://epsg.io/map#srs=4326&x=-104.991090&y=39.827572&z=16&layer=streets
+Latitude: 39.827572, Longitude: -104.991090
+https://epsg.io/map#srs=4326&x=-104.991026&y=39.827588&z=16&layer=streets
+Latitude: 39.827588, Longitude: -104.991026
+https://epsg.io/map#srs=4326&x=-104.985221&y=39.826990&z=16&layer=streets
+Latitude: 39.826990, Longitude: -104.985221
+https://epsg.io/map#srs=4326&x=-105.143557&y=39.943523&z=16&layer=streets
+Latitude: 39.943523, Longitude: -105.143557
+https://epsg.io/map#srs=4326&x=-105.142485&y=39.942800&z=16&layer=streets
+Latitude: 39.942800, Longitude: -105.142485
+https://epsg.io/map#srs=4326&x=-105.142670&y=39.942894&z=16&layer=streets
+Latitude: 39.942894, Longitude: -105.142670
+https://epsg.io/map#srs=4326&x=-105.142992&y=39.943009&z=16&layer=streets
+Latitude: 39.943009, Longitude: -105.142992
+https://epsg.io/map#srs=4326&x=-105.143001&y=39.943018&z=16&layer=streets
+Latitude: 39.943018, Longitude: -105.143001
+https://epsg.io/map#srs=4326&x=-105.143173&y=39.943216&z=16&layer=streets
+Latitude: 39.943216, Longitude: -105.143173
+https://epsg.io/map#srs=4326&x=-105.143366&y=39.943512&z=16&layer=streets
+Latitude: 39.943512, Longitude: -105.143366
+https://epsg.io/map#srs=4326&x=-105.143679&y=39.943798&z=16&layer=streets
+Latitude: 39.943798, Longitude: -105.143679
+https://epsg.io/map#srs=4326&x=-105.143945&y=39.943989&z=16&layer=streets
+Latitude: 39.943989, Longitude: -105.143945
+https://epsg.io/map#srs=4326&x=-105.144172&y=39.944127&z=16&layer=streets
+Latitude: 39.944127, Longitude: -105.144172
+https://epsg.io/map#srs=4326&x=-105.144408&y=39.944292&z=16&layer=streets
+Latitude: 39.944292, Longitude: -105.144408
+https://epsg.io/map#srs=4326&x=-105.144666&y=39.944555&z=16&layer=streets
+Latitude: 39.944555, Longitude: -105.144666
+https://epsg.io/map#srs=4326&x=-105.145159&y=39.944785&z=16&layer=streets
+Latitude: 39.944785, Longitude: -105.145159
+https://epsg.io/map#srs=4326&x=-105.145481&y=39.944950&z=16&layer=streets
+Latitude: 39.944950, Longitude: -105.145481
+https://epsg.io/map#srs=4326&x=-105.145512&y=39.944959&z=16&layer=streets
+Latitude: 39.944959, Longitude: -105.145512
+https://epsg.io/map#srs=4326&x=-105.145512&y=39.944966&z=16&layer=streets
+Latitude: 39.944966, Longitude: -105.145512
+https://epsg.io/map#srs=4326&x=-105.145567&y=39.944992&z=16&layer=streets
+Latitude: 39.944992, Longitude: -105.145567
+https://epsg.io/map#srs=4326&x=-105.145404&y=39.944957&z=16&layer=streets
+Latitude: 39.944957, Longitude: -105.145404
+https://epsg.io/map#srs=4326&x=-105.145502&y=39.944983&z=16&layer=streets
+Latitude: 39.944983, Longitude: -105.145502
+https://epsg.io/map#srs=4326&x=-105.145567&y=39.944999&z=16&layer=streets
+Latitude: 39.944999, Longitude: -105.145567
+https://epsg.io/map#srs=4326&x=-105.145588&y=39.944999&z=16&layer=streets
+Latitude: 39.944999, Longitude: -105.145588
+https://epsg.io/map#srs=4326&x=-105.145004&y=39.946085&z=18&layer=streets
+Latitude: 39.946085, Longitude: -105.145004
+https://epsg.io/map#srs=4326&x=-105.145596&y=39.944999&z=16&layer=streets
+Latitude: 39.944999, Longitude: -105.145596
+https://epsg.io/map#srs=4326&x=-105.148958&y=39.942785&z=14&layer=streets
+Latitude: 39.942785, Longitude: -105.148958
+https://epsg.io/map#srs=4326&x=-105.145548&y=39.940832&z=14&layer=streets
+Latitude: 39.940832, Longitude: -105.145548
+https://epsg.io/map#srs=4326&x=-105.144813&y=39.940268&z=14&layer=streets
+Latitude: 39.940268, Longitude: -105.144813
+https://epsg.io/map#srs=4326&x=-105.144163&y=39.939911&z=14&layer=streets
+Latitude: 39.939911, Longitude: -105.144163
+https://epsg.io/map#srs=4326&x=-105.143182&y=39.939347&z=14&layer=streets
+Latitude: 39.939347, Longitude: -105.143182
+https://epsg.io/map#srs=4326&x=-105.142397&y=39.939018&z=14&layer=streets
+Latitude: 39.939018, Longitude: -105.142397
+https://epsg.io/map#srs=4326&x=-105.141858&y=39.938661&z=14&layer=streets
+Latitude: 39.938661, Longitude: -105.141858
+https://epsg.io/map#srs=4326&x=-105.140950&y=39.938200&z=14&layer=streets
+Latitude: 39.938200, Longitude: -105.140950
+https://epsg.io/map#srs=4326&x=-105.140313&y=39.937702&z=14&layer=streets
+Latitude: 39.937702, Longitude: -105.140313
+https://epsg.io/map#srs=4326&x=-105.139577&y=39.937345&z=14&layer=streets
+Latitude: 39.937345, Longitude: -105.139577
+https://epsg.io/map#srs=4326&x=-105.138890&y=39.936715&z=14&layer=streets
+Latitude: 39.936715, Longitude: -105.138890
+https://epsg.io/map#srs=4326&x=-105.138253&y=39.936132&z=14&layer=streets
+Latitude: 39.936132, Longitude: -105.138253
+https://epsg.io/map#srs=4326&x=-105.137689&y=39.935662&z=14&layer=streets
+Latitude: 39.935662, Longitude: -105.137689
+https://epsg.io/map#srs=4326&x=-105.137174&y=39.935267&z=14&layer=streets
+Latitude: 39.935267, Longitude: -105.137174
+https://epsg.io/map#srs=4326&x=-105.136794&y=39.934938&z=14&layer=streets
+Latitude: 39.934938, Longitude: -105.136794
+https://epsg.io/map#srs=4326&x=-105.136144&y=39.934580&z=14&layer=streets
+Latitude: 39.934580, Longitude: -105.136144
+https://epsg.io/map#srs=4326&x=-105.135850&y=39.934317&z=14&layer=streets
+Latitude: 39.934317, Longitude: -105.135850
+https://epsg.io/map#srs=4326&x=-105.135249&y=39.933857&z=14&layer=streets
+Latitude: 39.933857, Longitude: -105.135249
+https://epsg.io/map#srs=4326&x=-105.134820&y=39.933631&z=14&layer=streets
+Latitude: 39.933631, Longitude: -105.134820
+https://epsg.io/map#srs=4326&x=-105.134489&y=39.938341&z=14&layer=streets
+Latitude: 39.938341, Longitude: -105.134489
+https://epsg.io/map#srs=4326&x=-105.134574&y=39.938407&z=14&layer=streets
+Latitude: 39.938407, Longitude: -105.134574
+https://epsg.io/map#srs=4326&x=-105.138008&y=39.939356&z=14&layer=streets
+Latitude: 39.939356, Longitude: -105.138008
+https://epsg.io/map#srs=4326&x=-105.101658&y=39.921012&z=14&layer=streets
+Latitude: 39.921012, Longitude: -105.101658
+https://epsg.io/map#srs=4326&x=-105.097845&y=39.918041&z=14&layer=streets
+Latitude: 39.918041, Longitude: -105.097845
+https://epsg.io/map#srs=4326&x=-105.101376&y=39.918077&z=17&layer=streets
+Latitude: 39.918077, Longitude: -105.101376
+https://epsg.io/map#srs=4326&x=-105.099798&y=39.918909&z=17&layer=streets
+Latitude: 39.918909, Longitude: -105.099798
+https://epsg.io/map#srs=4326&x=-105.099525&y=39.919015&z=17&layer=streets
+Latitude: 39.919015, Longitude: -105.099525
+https://epsg.io/map#srs=4326&x=-105.099393&y=39.919035&z=17&layer=streets
+Latitude: 39.919035, Longitude: -105.099393
+https://epsg.io/map#srs=4326&x=-105.099290&y=39.919010&z=17&layer=streets
+Latitude: 39.919010, Longitude: -105.099290
+https://epsg.io/map#srs=4326&x=-105.099194&y=39.918989&z=17&layer=streets
+Latitude: 39.918989, Longitude: -105.099194
+https://epsg.io/map#srs=4326&x=-105.099125&y=39.918977&z=17&layer=streets
+Latitude: 39.918977, Longitude: -105.099125
+https://epsg.io/map#srs=4326&x=-105.099050&y=39.918977&z=17&layer=streets
+Latitude: 39.918977, Longitude: -105.099050
+https://epsg.io/map#srs=4326&x=-105.098947&y=39.918990&z=17&layer=streets
+Latitude: 39.918990, Longitude: -105.098947
+https://epsg.io/map#srs=4326&x=-105.098878&y=39.919010&z=17&layer=streets
+Latitude: 39.919010, Longitude: -105.098878
+https://epsg.io/map#srs=4326&x=-105.098778&y=39.919041&z=17&layer=streets
+Latitude: 39.919041, Longitude: -105.098778
+https://epsg.io/map#srs=4326&x=-105.097038&y=39.917917&z=17&layer=streets
+Latitude: 39.917917, Longitude: -105.097038
+https://epsg.io/map#srs=4326&x=-105.153068&y=39.950818&z=16&layer=streets
+Latitude: 39.950818, Longitude: -105.153068
+https://epsg.io/map#srs=4326&x=-105.156903&y=39.953624&z=16&layer=streets
+Latitude: 39.953624, Longitude: -105.156903
+https://epsg.io/map#srs=4326&x=-105.161014&y=39.956479&z=16&layer=streets
+Latitude: 39.956479, Longitude: -105.161014
+https://epsg.io/map#srs=4326&x=-105.178664&y=39.970534&z=16&layer=streets
+Latitude: 39.970534, Longitude: -105.178664
+https://epsg.io/map#srs=4326&x=-105.205283&y=39.977322&z=16&layer=streets
+Latitude: 39.977322, Longitude: -105.205283
+https://epsg.io/map#srs=4326&x=-105.205283&y=39.977322&z=15&layer=streets
+Latitude: 39.977322, Longitude: -105.205283
+https://epsg.io/map#srs=4326&x=-105.205283&y=39.977322&z=13&layer=streets
+Latitude: 39.977322, Longitude: -105.205283
+https://epsg.io/map#srs=4326&x=-105.212519&y=39.976892&z=14&layer=streets
+Latitude: 39.976892, Longitude: -105.212519
+https://epsg.io/map#srs=4326&x=-105.216157&y=39.976667&z=15&layer=streets
+Latitude: 39.976667, Longitude: -105.216157
+https://epsg.io/map#srs=4326&x=-105.217769&y=39.977914&z=15&layer=streets
+Latitude: 39.977914, Longitude: -105.217769
+https://epsg.io/map#srs=4326&x=-105.218345&y=39.978327&z=15&layer=streets
+Latitude: 39.978327, Longitude: -105.218345
+https://epsg.io/map#srs=4326&x=-105.218885&y=39.978741&z=15&layer=streets
+Latitude: 39.978741, Longitude: -105.218885
+https://epsg.io/map#srs=4326&x=-105.219504&y=39.979145&z=15&layer=streets
+Latitude: 39.979145, Longitude: -105.219504
+https://epsg.io/map#srs=4326&x=-105.219890&y=39.979394&z=15&layer=streets
+Latitude: 39.979394, Longitude: -105.219890
+https://epsg.io/map#srs=4326&x=-105.220190&y=39.979591&z=15&layer=streets
+Latitude: 39.979591, Longitude: -105.220190
+https://epsg.io/map#srs=4326&x=-105.220638&y=39.979887&z=15&layer=streets
+Latitude: 39.979887, Longitude: -105.220638
+https://epsg.io/map#srs=4326&x=-105.221263&y=39.980282&z=15&layer=streets
+Latitude: 39.980282, Longitude: -105.221263
+https://epsg.io/map#srs=4326&x=-105.221674&y=39.980545&z=15&layer=streets
+Latitude: 39.980545, Longitude: -105.221674
+https://epsg.io/map#srs=4326&x=-105.222036&y=39.980756&z=15&layer=streets
+Latitude: 39.980756, Longitude: -105.222036
+https://epsg.io/map#srs=4326&x=-105.222269&y=39.980954&z=15&layer=streets
+Latitude: 39.980954, Longitude: -105.222269
+https://epsg.io/map#srs=4326&x=-105.222594&y=39.981203&z=15&layer=streets
+Latitude: 39.981203, Longitude: -105.222594
+https://epsg.io/map#srs=4326&x=-105.222827&y=39.981348&z=15&layer=streets
+Latitude: 39.981348, Longitude: -105.222827
+https://epsg.io/map#srs=4326&x=-105.224304&y=39.982480&z=15&layer=streets
+Latitude: 39.982480, Longitude: -105.224304
+https://epsg.io/map#srs=4326&x=-105.224801&y=39.982349&z=15&layer=streets
+Latitude: 39.982349, Longitude: -105.224801
+https://epsg.io/map#srs=4326&x=-105.225187&y=39.982316&z=15&layer=streets
+Latitude: 39.982316, Longitude: -105.225187
+https://epsg.io/map#srs=4326&x=-105.225248&y=39.982316&z=15&layer=streets
+Latitude: 39.982316, Longitude: -105.225248
+https://epsg.io/map#srs=4326&x=-105.230282&y=39.983932&z=15&layer=streets
+Latitude: 39.983932, Longitude: -105.230282
+https://epsg.io/map#srs=4326&x=-105.231097&y=39.984176&z=15&layer=streets
+Latitude: 39.984176, Longitude: -105.231097
+https://epsg.io/map#srs=4326&x=-105.232568&y=39.984575&z=15&layer=streets
+Latitude: 39.984575, Longitude: -105.232568
+https://epsg.io/map#srs=4326&x=-105.234297&y=39.985031&z=15&layer=streets
+Latitude: 39.985031, Longitude: -105.234297
+https://epsg.io/map#srs=4326&x=-105.236517&y=39.985609&z=15&layer=streets
+Latitude: 39.985609, Longitude: -105.236517
+https://epsg.io/map#srs=4326&x=-105.237749&y=39.986018&z=15&layer=streets
+Latitude: 39.986018, Longitude: -105.237749
+https://epsg.io/map#srs=4326&x=-105.238301&y=39.986248&z=15&layer=streets
+Latitude: 39.986248, Longitude: -105.238301
+https://epsg.io/map#srs=4326&x=-105.238822&y=39.986478&z=15&layer=streets
+Latitude: 39.986478, Longitude: -105.238822
+https://epsg.io/map#srs=4326&x=-105.239220&y=39.986689&z=15&layer=streets
+Latitude: 39.986689, Longitude: -105.239220
+https://epsg.io/map#srs=4326&x=-105.239435&y=39.986774&z=15&layer=streets
+Latitude: 39.986774, Longitude: -105.239435
+https://epsg.io/map#srs=4326&x=-105.239564&y=39.986840&z=15&layer=streets
+Latitude: 39.986840, Longitude: -105.239564
+https://epsg.io/map#srs=4326&x=-105.240489&y=39.987319&z=15&layer=streets
+Latitude: 39.987319, Longitude: -105.240489
+https://epsg.io/map#srs=4326&x=-105.240704&y=39.987469&z=15&layer=streets
+Latitude: 39.987469, Longitude: -105.240704
+https://epsg.io/map#srs=4326&x=-105.210921&y=39.975401&z=15&layer=streets
+Latitude: 39.975401, Longitude: -105.210921
+https://epsg.io/map#srs=4326&x=-105.210093&y=39.974945&z=15&layer=streets
+Latitude: 39.974945, Longitude: -105.210093
+https://epsg.io/map#srs=4326&x=-105.209664&y=39.974616&z=15&layer=streets
+Latitude: 39.974616, Longitude: -105.209664
+https://epsg.io/map#srs=4326&x=-105.208885&y=39.973986&z=15&layer=streets
+Latitude: 39.973986, Longitude: -105.208885
+https://epsg.io/map#srs=4326&x=-105.208291&y=39.973531&z=15&layer=streets
+Latitude: 39.973531, Longitude: -105.208291
+https://epsg.io/map#srs=4326&x=-105.207579&y=39.972920&z=15&layer=streets
+Latitude: 39.972920, Longitude: -105.207579
+https://epsg.io/map#srs=4326&x=-105.206623&y=39.972018&z=15&layer=streets
+Latitude: 39.972018, Longitude: -105.206623
+https://epsg.io/map#srs=4326&x=-105.205336&y=39.970937&z=15&layer=streets
+Latitude: 39.970937, Longitude: -105.205336
+https://epsg.io/map#srs=4326&x=-105.203000&y=39.969269&z=15&layer=streets
+Latitude: 39.969269, Longitude: -105.203000
+https://epsg.io/map#srs=4326&x=-105.201455&y=39.968377&z=15&layer=streets
+Latitude: 39.968377, Longitude: -105.201455
+https://epsg.io/map#srs=4326&x=-105.200284&y=39.967709&z=15&layer=streets
+Latitude: 39.967709, Longitude: -105.200284
+https://epsg.io/map#srs=4326&x=-105.199904&y=39.967465&z=15&layer=streets
+Latitude: 39.967465, Longitude: -105.199904
+https://epsg.io/map#srs=4326&x=-105.199646&y=39.967301&z=15&layer=streets
+Latitude: 39.967301, Longitude: -105.199646
+https://epsg.io/map#srs=4326&x=-105.199603&y=39.967286&z=15&layer=streets
+Latitude: 39.967286, Longitude: -105.199603
+https://epsg.io/map#srs=4326&x=-105.199585&y=39.967268&z=15&layer=streets
+Latitude: 39.967268, Longitude: -105.199585
+https://epsg.io/map#srs=4326&x=-105.199560&y=39.967254&z=15&layer=streets
+Latitude: 39.967254, Longitude: -105.199560
+https://epsg.io/map#srs=4326&x=-105.198175&y=39.966506&z=15&layer=streets
+Latitude: 39.966506, Longitude: -105.198175
+https://epsg.io/map#srs=4326&x=-105.142679&y=39.942233&z=15&layer=streets
+Latitude: 39.942233, Longitude: -105.142679
+https://epsg.io/map#srs=4326&x=-105.142550&y=39.942008&z=15&layer=streets
+Latitude: 39.942008, Longitude: -105.142550
+https://epsg.io/map#srs=4326&x=-105.142397&y=39.942055&z=15&layer=streets
+Latitude: 39.942055, Longitude: -105.142397
+https://epsg.io/map#srs=4326&x=-105.141753&y=39.942186&z=15&layer=streets
+Latitude: 39.942186, Longitude: -105.141753
+https://epsg.io/map#srs=4326&x=-105.141711&y=39.942186&z=15&layer=streets
+Latitude: 39.942186, Longitude: -105.141711
+https://epsg.io/map#srs=4326&x=-105.141931&y=39.942384&z=15&layer=streets
+Latitude: 39.942384, Longitude: -105.141931
+https://epsg.io/map#srs=4326&x=-105.142060&y=39.942449&z=15&layer=streets
+Latitude: 39.942449, Longitude: -105.142060
+https://epsg.io/map#srs=4326&x=-105.142078&y=39.942449&z=15&layer=streets
+Latitude: 39.942449, Longitude: -105.142078
+https://epsg.io/map#srs=4326&x=-105.144632&y=39.944243&z=15.5&layer=streets
+Latitude: 39.944243, Longitude: -105.144632
+https://epsg.io/map#srs=4326&x=-105.145372&y=39.944755&z=16&layer=streets
+Latitude: 39.944755, Longitude: -105.145372
+https://epsg.io/map#srs=4326&x=-105.169115&y=39.954613&z=14&layer=streets
+Latitude: 39.954613, Longitude: -105.169115
+https://epsg.io/map#srs=4326&x=-105.176337&y=39.957527&z=14&layer=streets
+Latitude: 39.957527, Longitude: -105.176337
+https://epsg.io/map#srs=4326&x=-105.185178&y=39.961145&z=14&layer=streets
+Latitude: 39.961145, Longitude: -105.185178
+https://epsg.io/map#srs=4326&x=-105.189077&y=39.962865&z=14&layer=streets
+Latitude: 39.962865, Longitude: -105.189077
+https://epsg.io/map#srs=4326&x=-105.192314&y=39.964209&z=14&layer=streets
+Latitude: 39.964209, Longitude: -105.192314
+https://epsg.io/map#srs=4326&x=-105.197635&y=39.966662&z=14&layer=streets
+Latitude: 39.966662, Longitude: -105.197635
+https://epsg.io/map#srs=4326&x=-105.203447&y=39.969048&z=14&layer=streets
+Latitude: 39.969048, Longitude: -105.203447
+https://epsg.io/map#srs=4326&x=-105.207015&y=39.970279&z=14&layer=streets
+Latitude: 39.970279, Longitude: -105.207015
+https://epsg.io/map#srs=4326&x=-105.209443&y=39.971078&z=14&layer=streets
+Latitude: 39.971078, Longitude: -105.209443
+https://epsg.io/map#srs=4326&x=-105.223939&y=39.975968&z=14&layer=streets
+Latitude: 39.975968, Longitude: -105.223939
+https://epsg.io/map#srs=4326&x=-105.224402&y=39.976171&z=14&layer=streets
+Latitude: 39.976171, Longitude: -105.224402
+https://epsg.io/map#srs=4326&x=-105.224917&y=39.976566&z=14&layer=streets
+Latitude: 39.976566, Longitude: -105.224917
+https://epsg.io/map#srs=4326&x=-105.225469&y=39.977064&z=14&layer=streets
+Latitude: 39.977064, Longitude: -105.225469
+https://epsg.io/map#srs=4326&x=-105.225898&y=39.977355&z=14&layer=streets
+Latitude: 39.977355, Longitude: -105.225898
+https://epsg.io/map#srs=4326&x=-105.226327&y=39.977815&z=14&layer=streets
+Latitude: 39.977815, Longitude: -105.226327
+https://epsg.io/map#srs=4326&x=-105.226585&y=39.978144&z=14&layer=streets
+Latitude: 39.978144, Longitude: -105.226585
+https://epsg.io/map#srs=4326&x=-105.226842&y=39.978407&z=14&layer=streets
+Latitude: 39.978407, Longitude: -105.226842
+https://epsg.io/map#srs=4326&x=-105.227271&y=39.978905&z=14&layer=streets
+Latitude: 39.978905, Longitude: -105.227271
+https://epsg.io/map#srs=4326&x=-105.227615&y=39.979262&z=14&layer=streets
+Latitude: 39.979262, Longitude: -105.227615
+https://epsg.io/map#srs=4326&x=-105.230913&y=39.983302&z=14&layer=streets
+Latitude: 39.983302, Longitude: -105.230913
+https://epsg.io/map#srs=4326&x=-105.229662&y=39.983237&z=14&layer=streets
+Latitude: 39.983237, Longitude: -105.229662
+https://epsg.io/map#srs=4326&x=-105.229319&y=39.982936&z=14&layer=streets
+Latitude: 39.982936, Longitude: -105.229319
+https://epsg.io/map#srs=4326&x=-105.222833&y=39.977242&z=14&layer=streets
+Latitude: 39.977242, Longitude: -105.222833
+https://epsg.io/map#srs=4326&x=-105.219633&y=39.975758&z=14&layer=streets
+Latitude: 39.975758, Longitude: -105.219633
+https://epsg.io/map#srs=4326&x=-105.216506&y=39.974311&z=14&layer=streets
+Latitude: 39.974311, Longitude: -105.216506
+https://epsg.io/map#srs=4326&x=-105.214998&y=39.973484&z=14&layer=streets
+Latitude: 39.973484, Longitude: -105.214998
+https://epsg.io/map#srs=4326&x=-105.212030&y=39.972272&z=14&layer=streets
+Latitude: 39.972272, Longitude: -105.212030
+https://epsg.io/map#srs=4326&x=-105.210461&y=39.971651&z=14&layer=streets
+Latitude: 39.971651, Longitude: -105.210461
+https://epsg.io/map#srs=4326&x=-105.209308&y=39.971163&z=14&layer=streets
+Latitude: 39.971163, Longitude: -105.209308
+https://epsg.io/map#srs=4326&x=-105.207396&y=39.970430&z=14&layer=streets
+Latitude: 39.970430, Longitude: -105.207396
+https://epsg.io/map#srs=4326&x=-105.206035&y=39.969941&z=14&layer=streets
+Latitude: 39.969941, Longitude: -105.206035
+https://epsg.io/map#srs=4326&x=-105.203901&y=39.969152&z=14&layer=streets
+Latitude: 39.969152, Longitude: -105.203901
+https://epsg.io/map#srs=4326&x=-105.202650&y=39.968691&z=14&layer=streets
+Latitude: 39.968691, Longitude: -105.202650
+https://epsg.io/map#srs=4326&x=-105.201755&y=39.968297&z=14&layer=streets
+Latitude: 39.968297, Longitude: -105.201755
+https://epsg.io/map#srs=4326&x=-105.151652&y=39.944325&z=15&layer=streets
+Latitude: 39.944325, Longitude: -105.151652
+https://epsg.io/map#srs=4326&x=-105.143461&y=39.943535&z=15&layer=streets
+Latitude: 39.943535, Longitude: -105.143461
+https://epsg.io/map#srs=4326&x=-105.144417&y=39.944005&z=15&layer=streets
+Latitude: 39.944005, Longitude: -105.144417
+https://epsg.io/map#srs=4326&x=-105.161007&y=39.943216&z=15&layer=streets
+Latitude: 39.943216, Longitude: -105.161007
+https://epsg.io/map#srs=4326&x=-105.160219&y=39.942576&z=15&layer=streets
+Latitude: 39.942576, Longitude: -105.160219
+https://epsg.io/map#srs=4326&x=-105.159557&y=39.942346&z=15&layer=streets
+Latitude: 39.942346, Longitude: -105.159557
+https://epsg.io/map#srs=4326&x=-105.158441&y=39.941937&z=15&layer=streets
+Latitude: 39.941937, Longitude: -105.158441
+https://epsg.io/map#srs=4326&x=-105.157822&y=39.941660&z=15&layer=streets
+Latitude: 39.941660, Longitude: -105.157822
+https://epsg.io/map#srs=4326&x=-105.157350&y=39.941542&z=15&layer=streets
+Latitude: 39.941542, Longitude: -105.157350
+https://epsg.io/map#srs=4326&x=-105.156811&y=39.941528&z=15&layer=streets
+Latitude: 39.941528, Longitude: -105.156811
+https://epsg.io/map#srs=4326&x=-105.156234&y=39.941561&z=15&layer=streets
+Latitude: 39.941561, Longitude: -105.156234
+https://epsg.io/map#srs=4326&x=-105.155695&y=39.941660&z=15&layer=streets
+Latitude: 39.941660, Longitude: -105.155695
+https://epsg.io/map#srs=4326&x=-105.155333&y=39.941777&z=15&layer=streets
+Latitude: 39.941777, Longitude: -105.155333
+https://epsg.io/map#srs=4326&x=-105.155100&y=39.941824&z=15&layer=streets
+Latitude: 39.941824, Longitude: -105.155100
+https://epsg.io/map#srs=4326&x=-105.155014&y=39.941824&z=15&layer=streets
+Latitude: 39.941824, Longitude: -105.155014
+https://epsg.io/map#srs=4326&x=-105.154843&y=39.941857&z=15&layer=streets
+Latitude: 39.941857, Longitude: -105.154843
+https://epsg.io/map#srs=4326&x=-105.154518&y=39.942008&z=15&layer=streets
+Latitude: 39.942008, Longitude: -105.154518
+https://epsg.io/map#srs=4326&x=-105.154217&y=39.942172&z=15&layer=streets
+Latitude: 39.942172, Longitude: -105.154217
+https://epsg.io/map#srs=4326&x=-105.153616&y=39.942384&z=15&layer=streets
+Latitude: 39.942384, Longitude: -105.153616
+https://epsg.io/map#srs=4326&x=-105.153120&y=39.942581&z=15&layer=streets
+Latitude: 39.942581, Longitude: -105.153120
+https://epsg.io/map#srs=4326&x=-105.152587&y=39.942778&z=15&layer=streets
+Latitude: 39.942778, Longitude: -105.152587
+https://epsg.io/map#srs=4326&x=-105.152225&y=39.942962&z=15&layer=streets
+Latitude: 39.942962, Longitude: -105.152225
+https://epsg.io/map#srs=4326&x=-105.151967&y=39.943126&z=15&layer=streets
+Latitude: 39.943126, Longitude: -105.151967
+https://epsg.io/map#srs=4326&x=-105.151863&y=39.943192&z=15&layer=streets
+Latitude: 39.943192, Longitude: -105.151863
+https://epsg.io/map#srs=4326&x=-105.151839&y=39.943225&z=15&layer=streets
+Latitude: 39.943225, Longitude: -105.151839
+https://epsg.io/map#srs=4326&x=-105.151667&y=39.943404&z=15&layer=streets
+Latitude: 39.943404, Longitude: -105.151667
+https://epsg.io/map#srs=4326&x=-105.144629&y=39.944259&z=15&layer=streets
+Latitude: 39.944259, Longitude: -105.144629
+https://epsg.io/map#srs=4326&x=-105.149917&y=39.940922&z=15&layer=streets
+Latitude: 39.940922, Longitude: -105.149917
+https://epsg.io/map#srs=4326&x=-105.142282&y=39.942837&z=16&layer=streets
+Latitude: 39.942837, Longitude: -105.142282
+https://epsg.io/map#srs=4326&x=-105.143000&y=39.943319&z=16&layer=streets
+Latitude: 39.943319, Longitude: -105.143000
+https://epsg.io/map#srs=4326&x=-105.143839&y=39.943871&z=16&layer=streets
+Latitude: 39.943871, Longitude: -105.143839
+https://epsg.io/map#srs=4326&x=-105.144676&y=39.944414&z=16&layer=streets
+Latitude: 39.944414, Longitude: -105.144676
+https://epsg.io/map#srs=4326&x=-105.145513&y=39.944957&z=16&layer=streets
+Latitude: 39.944957, Longitude: -105.145513
+https://epsg.io/map#srs=4326&x=-105.146350&y=39.945500&z=16&layer=streets
+Latitude: 39.945500, Longitude: -105.146350
+https://epsg.io/map#srs=4326&x=-105.147187&y=39.946043&z=16&layer=streets
+Latitude: 39.946043, Longitude: -105.147187
+https://epsg.io/map#srs=4326&x=-105.148024&y=39.946586&z=16&layer=streets
+Latitude: 39.946586, Longitude: -105.148024
+https://epsg.io/map#srs=4326&x=-105.148861&y=39.947128&z=16&layer=streets
+Latitude: 39.947128, Longitude: -105.148861
+https://epsg.io/map#srs=4326&x=-105.149697&y=39.947671&z=16&layer=streets
+Latitude: 39.947671, Longitude: -105.149697
+https://epsg.io/map#srs=4326&x=-105.150534&y=39.948214&z=16&layer=streets
+Latitude: 39.948214, Longitude: -105.150534
+https://epsg.io/map#srs=4326&x=-105.151371&y=39.948757&z=16&layer=streets
+Latitude: 39.948757, Longitude: -105.151371
+https://epsg.io/map#srs=4326&x=-105.151803&y=39.949027&z=16&layer=streets
+Latitude: 39.949027, Longitude: -105.151803
+https://epsg.io/map#srs=4326&x=-105.152061&y=39.949222&z=16&layer=streets
+Latitude: 39.949222, Longitude: -105.152061
+https://epsg.io/map#srs=4326&x=-105.152318&y=39.949420&z=16&layer=streets
+Latitude: 39.949420, Longitude: -105.152318
+https://epsg.io/map#srs=4326&x=-105.152576&y=39.949617&z=16&layer=streets
+Latitude: 39.949617, Longitude: -105.152576
+https://epsg.io/map#srs=4326&x=-105.152833&y=39.949815&z=16&layer=streets
+Latitude: 39.949815, Longitude: -105.152833
+https://epsg.io/map#srs=4326&x=-105.153091&y=39.950012&z=16&layer=streets
+Latitude: 39.950012, Longitude: -105.153091
+https://epsg.io/map#srs=4326&x=-105.153348&y=39.950209&z=16&layer=streets
+Latitude: 39.950209, Longitude: -105.153348
+https://epsg.io/map#srs=4326&x=-105.153606&y=39.950407&z=16&layer=streets
+Latitude: 39.950407, Longitude: -105.153606
+https://epsg.io/map#srs=4326&x=-105.153863&y=39.950604&z=16&layer=streets
+Latitude: 39.950604, Longitude: -105.153863
+https://epsg.io/map#srs=4326&x=-105.142057&y=39.941380&z=16&layer=streets
+Latitude: 39.941380, Longitude: -105.142057
+https://epsg.io/map#srs=4326&x=-105.140656&y=39.940332&z=16&layer=streets
+Latitude: 39.940332, Longitude: -105.140656
+https://epsg.io/map#srs=4326&x=-105.138277&y=39.938764&z=16&layer=streets
+Latitude: 39.938764, Longitude: -105.138277
+https://epsg.io/map#srs=4326&x=-105.133563&y=39.936597&z=16&layer=streets
+Latitude: 39.936597, Longitude: -105.133563
+https://epsg.io/map#srs=4326&x=-105.130141&y=39.935198&z=16&layer=streets
+Latitude: 39.935198, Longitude: -105.130141
+https://epsg.io/map#srs=4326&x=-105.130327&y=39.935267&z=16&layer=streets
+Latitude: 39.935267, Longitude: -105.130327
+https://epsg.io/map#srs=4326&x=-105.123038&y=39.931461&z=16&layer=streets
+Latitude: 39.931461, Longitude: -105.123038
+https://epsg.io/map#srs=4326&x=-105.120357&y=39.928664&z=16&layer=streets
+Latitude: 39.928664, Longitude: -105.120357
+https://epsg.io/map#srs=4326&x=-105.110038&y=39.921624&z=14&layer=streets
+Latitude: 39.921624, Longitude: -105.110038
+https://epsg.io/map#srs=4326&x=-105.110038&y=39.921624&z=13&layer=streets
+Latitude: 39.921624, Longitude: -105.110038
+https://epsg.io/map#srs=4326&x=-105.093474&y=39.899634&z=13&layer=streets
+Latitude: 39.899634, Longitude: -105.093474
+https://epsg.io/map#srs=4326&x=-105.091487&y=39.897113&z=13&layer=streets
+Latitude: 39.897113, Longitude: -105.091487
+https://epsg.io/map#srs=4326&x=-105.089869&y=39.894874&z=13&layer=streets
+Latitude: 39.894874, Longitude: -105.089869
+https://epsg.io/map#srs=4326&x=-105.088422&y=39.892993&z=13&layer=streets
+Latitude: 39.892993, Longitude: -105.088422
+https://epsg.io/map#srs=4326&x=-105.087392&y=39.891939&z=13&layer=streets
+Latitude: 39.891939, Longitude: -105.087392
+https://epsg.io/map#srs=4326&x=-105.086117&y=39.890754&z=13&layer=streets
+Latitude: 39.890754, Longitude: -105.086117
+https://epsg.io/map#srs=4326&x=-105.085332&y=39.889963&z=13&layer=streets
+Latitude: 39.889963, Longitude: -105.085332
+https://epsg.io/map#srs=4326&x=-105.084474&y=39.889041&z=13&layer=streets
+Latitude: 39.889041, Longitude: -105.084474
+https://epsg.io/map#srs=4326&x=-105.083272&y=39.887724&z=13&layer=streets
+Latitude: 39.887724, Longitude: -105.083272
+https://epsg.io/map#srs=4326&x=-105.082144&y=39.886464&z=13&layer=streets
+Latitude: 39.886464, Longitude: -105.082144
+https://epsg.io/map#srs=4326&x=-105.080182&y=39.883246&z=13&layer=streets
+Latitude: 39.883246, Longitude: -105.080182
+https://epsg.io/map#srs=4326&x=-105.078809&y=39.881929&z=13&layer=streets
+Latitude: 39.881929, Longitude: -105.078809
+https://epsg.io/map#srs=4326&x=-105.077436&y=39.880329&z=13&layer=streets
+Latitude: 39.880329, Longitude: -105.077436
+https://epsg.io/map#srs=4326&x=-105.076406&y=39.879162&z=13&layer=streets
+Latitude: 39.879162, Longitude: -105.076406
+https://epsg.io/map#srs=4326&x=-105.075032&y=39.877450&z=13&layer=streets
+Latitude: 39.877450, Longitude: -105.075032
+https://epsg.io/map#srs=4326&x=-105.074002&y=39.876208&z=13&layer=streets
+Latitude: 39.876208, Longitude: -105.074002
+https://epsg.io/map#srs=4326&x=-105.082438&y=39.900782&z=13&layer=streets
+Latitude: 39.900782, Longitude: -105.082438
+https://epsg.io/map#srs=4326&x=-105.082512&y=39.900857&z=13&layer=streets
+Latitude: 39.900857, Longitude: -105.082512
+https://epsg.io/map#srs=4326&x=-105.082512&y=39.900857&z=14&layer=streets
+Latitude: 39.900857, Longitude: -105.082512
+https://epsg.io/map#srs=4326&x=-105.075339&y=39.893068&z=14&layer=streets
+Latitude: 39.893068, Longitude: -105.075339
+https://epsg.io/map#srs=4326&x=-105.074481&y=39.891779&z=14&layer=streets
+Latitude: 39.891779, Longitude: -105.074481
+https://epsg.io/map#srs=4326&x=-105.073586&y=39.890603&z=14&layer=streets
+Latitude: 39.890603, Longitude: -105.073586
+https://epsg.io/map#srs=4326&x=-105.072556&y=39.888035&z=14&layer=streets
+Latitude: 39.888035, Longitude: -105.072556
+https://epsg.io/map#srs=4326&x=-105.072556&y=39.887640&z=14&layer=streets
+Latitude: 39.887640, Longitude: -105.072556
+https://epsg.io/map#srs=4326&x=-105.072470&y=39.887508&z=14&layer=streets
+Latitude: 39.887508, Longitude: -105.072470
+https://epsg.io/map#srs=4326&x=-105.072384&y=39.887282&z=14&layer=streets
+Latitude: 39.887282, Longitude: -105.072384
+https://epsg.io/map#srs=4326&x=-104.990604&y=39.827788&z=16&layer=streets
+Latitude: 39.827788, Longitude: -104.990604
+https://epsg.io/map#srs=4326&x=-104.991079&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.991079
+https://epsg.io/map#srs=4326&x=-104.991551&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.991551
+https://epsg.io/map#srs=4326&x=-104.992023&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.992023
+https://epsg.io/map#srs=4326&x=-104.992495&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.992495
+https://epsg.io/map#srs=4326&x=-104.992968&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.992968
+https://epsg.io/map#srs=4326&x=-104.993440&y=39.827791&z=16&layer=streets
+Latitude: 39.827791, Longitude: -104.993440
+https://epsg.io/map#srs=4326&x=-104.993486&y=39.827751&z=16&layer=streets
+Latitude: 39.827751, Longitude: -104.993486
+https://epsg.io/map#srs=4326&x=-104.996762&y=39.828238&z=16&layer=streets
+Latitude: 39.828238, Longitude: -104.996762
+https://epsg.io/map#srs=4326&x=-104.998979&y=39.828857&z=16&layer=streets
+Latitude: 39.828857, Longitude: -104.998979
+https://epsg.io/map#srs=4326&x=-105.000956&y=39.829446&z=16&layer=streets
+Latitude: 39.829446, Longitude: -105.000956
+https://epsg.io/map#srs=4326&x=-105.002881&y=39.829992&z=16&layer=streets
+Latitude: 39.829992, Longitude: -105.002881
+https://epsg.io/map#srs=4326&x=-105.004604&y=39.830442&z=16&layer=streets
+Latitude: 39.830442, Longitude: -105.004604
+https://epsg.io/map#srs=4326&x=-105.006357&y=39.830934&z=16&layer=streets
+Latitude: 39.830934, Longitude: -105.006357
+https://epsg.io/map#srs=4326&x=-105.007945&y=39.831400&z=16&layer=streets
+Latitude: 39.831400, Longitude: -105.007945
+https://epsg.io/map#srs=4326&x=-105.009190&y=39.831767&z=16&layer=streets
+Latitude: 39.831767, Longitude: -105.009190
+https://epsg.io/map#srs=4326&x=-105.010078&y=39.832033&z=16&layer=streets
+Latitude: 39.832033, Longitude: -105.010078
+https://epsg.io/map#srs=4326&x=-105.010970&y=39.832296&z=16&layer=streets
+Latitude: 39.832296, Longitude: -105.010970

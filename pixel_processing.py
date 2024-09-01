@@ -10,7 +10,7 @@ def get_file_last_modified_date(file_path):
     timestamp = os.path.getmtime(file_path)
     return datetime.fromtimestamp(timestamp)
 
-###TrafficTile class = primary data structure for storing the traffic level (30x30 px) tile centeded on the lat, lng coordinates
+###TrafficTile class = primary data structure for storing the traffic level (10x10 px) tile centeded on the lat, lng coordinates
 class TrafficTile:
     def __init__(self, lat, lng, traffic_level, src_image_path, capture_time):
         self.lat = lat
@@ -19,32 +19,32 @@ class TrafficTile:
         self.src_image_path = src_image_path
         self.image_time = capture_time  # comes from the images last modified time since it was created at time of catpture
 
-route_name = "HWY_36_WB"
+route_name = "US_36_WB"
 route_tiles_collection = {}  #collection of TrafficTile objects
 
-#crop to 30x30 size (around the center) for 360 by 800 (smallest common viewport) screencapture
-left = 165  #go in X pixels from the left to start croped image
-top = 385  #go in X pixels from the Top to start croped image
-right = 195 #go in X pixels from the left to stop the croped image (image right side)
-bottom = 415 #go in X pixels from the top to stop the croped image (image bottom side)
+#crop to 10x10 size (around the center) for 360 by 800 (smallest common viewport) screencapture
+left = 175  #go in X pixels from the left to start croped image
+top = 395  #go in X pixels from the Top to start croped image
+right = 185 #go in X pixels from the left to stop the croped image (image right side)
+bottom = 405 #go in X pixels from the top to stop the croped image (image bottom side)
 
 with open("Log - images with no traffic colors.txt", "a") as log_file:
 
     # Load the target_coordinates.json file
-    with open("target_coordinates.json") as file:
+    with open(f"{route_name}_coordinates.json") as file:
         data = json.load(file)
         #iterate through the captured images based on file name output by serversideimagescrape.js
         #images must be in the same directory as this script
         for i in range(len(data)):
             print(f"point {i+1}: Lat {data[i]['lat']}, Lng {data[i]['lng']}")
-            src_image_path = f"gmaps_{data[i]['lat']}_{data[i]['lng']}_360x800.png"
+            src_image_path = f"gmaps_{data[i]['lat']}_{data[i]['lng']}_16x_360x800.png"
             picture = Image.open(src_image_path)
             capture_time = get_file_last_modified_date(src_image_path)
             print(f"Image captured time: {capture_time}")
             picture = picture.crop((left, top, right, bottom))
             width, height = picture.size
             print(f"width: {width}, height: {height}")
-            picture.save(f"30x30 center of -- {src_image_path}")
+            picture.save(f"{route_name}_point_{i+1}_10x10px_lat_{data[i]['lat']}_lng_{data[i]['lng']}.png")
             green_pix_count = 0
             yellow_pix_count = 0
             red_pix_count = 0
@@ -71,17 +71,18 @@ with open("Log - images with no traffic colors.txt", "a") as log_file:
             all_color_pix_count = green_pix_count + yellow_pix_count + red_pix_count + dark_red_pix_count
             print(f"All color pixel count: {all_color_pix_count}")
             if all_color_pix_count == 0:
-                print(f"WARNING: No color pixels found in the image at: {src_image_path}")
+                print(f"WARNING: No primary traffic color pixels found in the image at: {src_image_path}")
                 log_file.write(f"WARNING: No color pixels found in the image at: {src_image_path}")
                 log_file.flush()
                 input("Press any key to continue...")
             traffic_level = (green_pix_count * 0 + yellow_pix_count * 2 + red_pix_count * 5 + dark_red_pix_count * 10) / all_color_pix_count
             current_TrafficTile = TrafficTile(data[i]['lat'], data[i]['lng'], traffic_level, src_image_path, capture_time)
+            print(f"Traffic Level: {current_TrafficTile.traffic_level}")
             route_tiles_collection[f"{route_name} point {i+1}"] = current_TrafficTile
-print("route_tiles_collection:")
-print(route_tiles_collection)
-print("route_tiles_collection['HWY_36_WB point 1'].traffic_level:")
-print(route_tiles_collection["HWY_36_WB point 1"].traffic_level)
+            
+print(f"** {route_name}'s route_tiles_collection is now populated with TrafficTile objects derived from the inpute images **")
+
+
 
 ### timer for the script
 end_time = time()

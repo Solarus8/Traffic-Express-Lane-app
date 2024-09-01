@@ -4,12 +4,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import urllib.parse
 import json
+### Scrape route coordinates by clicking on the map from EPSG.io ###
+###*** CONFIGUATION - TARGET ROUTE ***###
+target_route = "US_36_WB" # SET ME!!!
 
 # Set up the WebDriver (assuming ChromeDriver is in the PATH)
 driver = webdriver.Chrome()
 
-# Navigate to the target website
-driver.get("https://epsg.io/map#srs=4326&x=-105.144632&y=39.944243&z=16&layer=streets")
+# Input the starting latitude and longitude values for the start of the route
+driver.get("https://epsg.io/map#srs=4326&x=-104.990333&y=39.827730&z=16&layer=streets")
 
 # JavaScript to add an event listener for clicks on the map
 js_script = """
@@ -17,11 +20,9 @@ document.getElementById('map').addEventListener('click', function() {
     window.location.hash = window.location.hash; // Trigger URL change
 });
 """
+driver.execute_script(js_script) # Execute the JavaScript to add the event listener
 
-# Execute the JavaScript to add the event listener
-driver.execute_script(js_script)
-
-# List to store the coordinate strings to be written to a JSON file
+# List to store the coordinates (Key:Value) to be written to a JSON file
 coord_list = []
 
 # Open a log file to write the URLs
@@ -30,7 +31,7 @@ with open("url_log.txt", "a") as log_file:
         while True:
             try:
                 # Wait for the URL to change
-                WebDriverWait(driver, 60).until(EC.url_changes(driver.current_url))
+                WebDriverWait(driver, 180).until(EC.url_changes(driver.current_url))
             
                 # Get the current URL
                 current_url = driver.current_url
@@ -60,7 +61,7 @@ with open("url_log.txt", "a") as log_file:
         print("Stopped logging.")
     finally:
         # Write the list of coordinates to a JSON file
-        with open("target_coordinates.json", "w") as json_file:
+        with open(f"{target_route}_coordinates.json", "w") as json_file:
             json.dump(coord_list, json_file, indent=4)
         # Close the WebDriver
         driver.quit()
