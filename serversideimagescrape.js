@@ -9,7 +9,7 @@ const jsonFileName = targetRoute + '_coordinates.json'
 const zoom = 16;
 // Function to generate Google Maps URL from coordinates
 const generateGoogleMapsUrl = (lat, lng, zoom) => {
-    return `https://www.google.com/maps/@${lat},${lng},${zoom}z/data=!5m1!1e1?authuser=0&entry=ttu`;
+    return `https://www.google.com/maps/@${lat},${lng},${zoom}z`;
 };
 
 // Read coordinates from coordinates.json
@@ -34,7 +34,7 @@ fs.readFile(jsonFileName, 'utf8', async (err, data) => {
         await page.goto(websiteUrl, { waitUntil: 'networkidle0' });
 
         // Capture screenshot.
-        const screenshotPath = `gmaps_${lat}_${lng}_${zoom}x_360x800.png`;
+        const screenshotPath = `${targetRoute}_${lat}_${lng}_${zoom}x_360x800.png`;
         await page.screenshot({ path: screenshotPath });
 
         console.log(`Screenshot saved: ${screenshotPath}`);
