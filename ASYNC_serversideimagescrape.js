@@ -3,7 +3,9 @@ const fs = require('fs').promises;
 const path = require('path');
 
 ////// CONFIGURATION //////
-const targetRoute = 'US_36_WB' // make the same as target_route in pixel_processing.py
+const targetRoute = 'TEST_TEST' 
+//make the above same as "target_route" in config.py file
+
 const jsonFileName = targetRoute + '_coordinates.json'
 const zoom = 16; // set zoom level for Google Maps
 

@@ -2,7 +2,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 ////// CONFIGURATION //////
-const targetRoute = 'US_36_WB' // make the same as target_route in pixel_processing.py
+const targetRoute = 'TEST_TEST' 
+//make the above same as "target_route" in config.py file
+
 const jsonFileName = targetRoute + '_coordinates.json'
 
 // Zoom level for Google Maps

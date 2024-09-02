@@ -6,12 +6,16 @@
 test image capt, archival files/
 Other Docs/
 
+# Traffic App logging files
+Log - images with no traffic colors.txt
+*.txt
+
 # Traffic App working images (PNGs)
 *.png
 
 ### Node ###
 # Logs
-Log - images with no traffic colors.txt
+
 logs
 *.log
 npm-debug.log*
@@ -338,3 +342,4 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,python
+url_log.txt
