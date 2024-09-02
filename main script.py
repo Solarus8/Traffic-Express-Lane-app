@@ -1,8 +1,10 @@
 import subprocess
 from time import time
+from target_config import target_route
 
+print(f"\033[96mTarget Route: {target_route}\033[0m")
 start_time = time()  #script start time
-print(f"\033[96mStarting main script...\033[0m")
+print(f"Starting main script.........")
 
 def main():
     try:
@@ -26,4 +28,4 @@ if __name__ == "__main__":
 end_time = time()
 run_time = end_time - start_time
 print("\033[92mmain script.py completed sucessfully!\033[0m")
-print(f"\033[33mmain script.py run time: {run_time} seconds\033[0m")
+print(f"main script.py run time: {run_time} seconds")

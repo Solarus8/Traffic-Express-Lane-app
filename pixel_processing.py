@@ -1,5 +1,5 @@
 import os
-from config import target_route
+from target_config import target_route
 from datetime import datetime
 from PIL import Image
 from time import time
@@ -92,7 +92,7 @@ with open("Log - images with no traffic colors.txt", "a") as log_file:
     log_file.write(f"\033[32mRun of pixel_processing.py started @ {start_datetime} has completed\033[0m")           
     log_file.flush()
 #report status of the route_tiles_collection
-print(f"** {target_route}'s route_tiles_collection is now populated with TrafficTile objects derived from the inpute images **")
+print(f"** {target_route}'s route_tiles_collection is now populated with TrafficTile objects derived from the input images **")
 
 ### timer for the script
 end_time = time()

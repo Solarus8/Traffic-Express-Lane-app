@@ -1566,4 +1566,81 @@ https://epsg.io/map#srs=4326&x=-104.999426&y=39.829079&z=16&layer=streets
 Latitude: 39.829079, Longitude: -104.999426
 Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.988570&y=39.828811&z=16&layer=streets
 Latitude: 39.828811, Longitude: -104.988570
+Stopped logging.Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.985160&y=39.827920&z=16&layer=streets
+Latitude: 39.827920, Longitude: -104.985160
+https://epsg.io/map#srs=4326&x=-104.979989&y=39.828102&z=16&layer=streets
+Latitude: 39.828102, Longitude: -104.979989
+https://epsg.io/map#srs=4326&x=-104.973947&y=39.827266&z=16&layer=streets
+Latitude: 39.827266, Longitude: -104.973947
+https://epsg.io/map#srs=4326&x=-104.968828&y=39.825719&z=16&layer=streets
+Latitude: 39.825719, Longitude: -104.968828
+https://epsg.io/map#srs=4326&x=-104.965732&y=39.823650&z=16&layer=streets
+Latitude: 39.823650, Longitude: -104.965732
+https://epsg.io/map#srs=4326&x=-104.961710&y=39.823890&z=16&layer=streets
+Latitude: 39.823890, Longitude: -104.961710
+Stopped logging.Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.983284&y=39.830190&z=16&layer=streets
+Latitude: 39.830190, Longitude: -104.983284
+https://epsg.io/map#srs=4326&x=-104.983198&y=39.833200&z=16&layer=streets
+Latitude: 39.833200, Longitude: -104.983198
+https://epsg.io/map#srs=4326&x=-104.983713&y=39.836818&z=16&layer=streets
+Latitude: 39.836818, Longitude: -104.983713
+https://epsg.io/map#srs=4326&x=-104.983958&y=39.840634&z=16&layer=streets
+Latitude: 39.840634, Longitude: -104.983958
+https://epsg.io/map#srs=4326&x=-104.984820&y=39.845454&z=16&layer=streets
+Latitude: 39.845454, Longitude: -104.984820
 Stopped logging.
+Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.987269&y=39.827732&z=16&layer=streets
+Latitude: 39.827732, Longitude: -104.987269
+https://epsg.io/map#srs=4326&x=-104.984066&y=39.827930&z=16&layer=streets
+Latitude: 39.827930, Longitude: -104.984066
+https://epsg.io/map#srs=4326&x=-104.979900&y=39.827478&z=16&layer=streets
+Latitude: 39.827478, Longitude: -104.979900
+https://epsg.io/map#srs=4326&x=-104.973996&y=39.827308&z=16&layer=streets
+Latitude: 39.827308, Longitude: -104.973996
+https://epsg.io/map#srs=4326&x=-104.969186&y=39.825948&z=16&layer=streets
+Latitude: 39.825948, Longitude: -104.969186
+https://epsg.io/map#srs=4326&x=-104.964024&y=39.823365&z=16&layer=streets
+Latitude: 39.823365, Longitude: -104.964024
+https://epsg.io/map#srs=4326&x=-104.956499&y=39.824617&z=16&layer=streets
+Latitude: 39.824617, Longitude: -104.956499
+https://epsg.io/map#srs=4326&x=-104.949274&y=39.825964&z=16&layer=streets
+Latitude: 39.825964, Longitude: -104.949274
+https://epsg.io/map#srs=4326&x=-104.944651&y=39.828297&z=16&layer=streets
+Latitude: 39.828297, Longitude: -104.944651
+Stopped logging.
+Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.983407&y=39.829719&z=16&layer=streets
+Latitude: 39.829719, Longitude: -104.983407
+https://epsg.io/map#srs=4326&x=-104.983269&y=39.834135&z=16&layer=streets
+Latitude: 39.834135, Longitude: -104.983269
+https://epsg.io/map#srs=4326&x=-104.983236&y=39.834114&z=16&layer=streets
+Latitude: 39.834114, Longitude: -104.983236
+https://epsg.io/map#srs=4326&x=-104.983551&y=39.836858&z=16&layer=streets
+Latitude: 39.836858, Longitude: -104.983551
+https://epsg.io/map#srs=4326&x=-104.983713&y=39.839337&z=16&layer=streets
+Latitude: 39.839337, Longitude: -104.983713
+https://epsg.io/map#srs=4326&x=-104.984142&y=39.842364&z=16&layer=streets
+Latitude: 39.842364, Longitude: -104.984142
+Stopped logging.*****
+*****Starting Scraping log...https://epsg.io/map#srs=4326&x=-104.989292&y=39.827666&z=16&layer=streets
+Latitude: 39.827666, Longitude: -104.989292
+https://epsg.io/map#srs=4326&x=-104.988262&y=39.827600&z=16&layer=streets
+Latitude: 39.827600, Longitude: -104.988262
+https://epsg.io/map#srs=4326&x=-104.987122&y=39.827723&z=16&layer=streets
+Latitude: 39.827723, Longitude: -104.987122
+https://epsg.io/map#srs=4326&x=-104.985963&y=39.827828&z=16&layer=streets
+Latitude: 39.827828, Longitude: -104.985963
+https://epsg.io/map#srs=4326&x=-104.982892&y=39.824836&z=16&layer=streets
+Latitude: 39.824836, Longitude: -104.982892
+https://epsg.io/map#srs=4326&x=-104.982925&y=39.822317&z=16&layer=streets
+Latitude: 39.822317, Longitude: -104.982925
+https://epsg.io/map#srs=4326&x=-104.982968&y=39.819099&z=16&layer=streets
+Latitude: 39.819099, Longitude: -104.982968
+https://epsg.io/map#srs=4326&x=-104.983036&y=39.815885&z=16&layer=streets
+Latitude: 39.815885, Longitude: -104.983036
+https://epsg.io/map#srs=4326&x=-104.983088&y=39.812671&z=16&layer=streets
+Latitude: 39.812671, Longitude: -104.983088
+https://epsg.io/map#srs=4326&x=-104.983131&y=39.809457&z=16&layer=streets
+Latitude: 39.809457, Longitude: -104.983131
+https://epsg.io/map#srs=4326&x=-104.983174&y=39.806242&z=16&layer=streets
+Latitude: 39.806242, Longitude: -104.983174
+Stopped logging.*****
