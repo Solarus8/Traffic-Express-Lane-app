@@ -72,7 +72,7 @@ with open("Log - images with no traffic colors.txt", "a") as log_file:
             print(f"All traffic pixel count: {all_color_pix_count}")
             if all_color_pix_count == 0:
                 print(f"WARNING: No primary traffic color pixels found in the image at: {src_image_path}")
-                log_file.write(f"WARNING: No color pixels found in the image at: {src_image_path}")
+                log_file.write(f"WARNING: No color pixels found in the image at: {src_image_path}/n")
                 log_file.flush()
                 input("Press any key to continue...")
             traffic_level = (green_pix_count * 0 + yellow_pix_count * 2 + red_pix_count * 5 + dark_red_pix_count * 10) / all_color_pix_count
