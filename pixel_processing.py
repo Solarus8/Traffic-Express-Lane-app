@@ -82,9 +82,7 @@ with open("Log - images with no traffic colors.txt", "a") as log_file:
             
 print(f"** {route_name}'s route_tiles_collection is now populated with TrafficTile objects derived from the inpute images **")
 
-
-
 ### timer for the script
 end_time = time()
 run_time = end_time - start_time
-print(f"Run time: {run_time} seconds")
+print(f"pixel_processing.py Run time: {run_time} seconds")

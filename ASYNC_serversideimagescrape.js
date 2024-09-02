@@ -9,7 +9,7 @@ const zoom = 16; // set zoom level for Google Maps
 
 // Function to generate Google Maps URL
 function generateGoogleMapsUrl(lat, lng, zoom) {
-    return `https://www.google.com/maps/@${lat},${lng},${zoom}z`;
+    return `https://www.google.com/maps/@${lat},${lng},${zoom}z/data=!5m1!1e1?authuser=0&entry=ttu`;
 }
 
 // Function to capture screenshot for a given coordinate

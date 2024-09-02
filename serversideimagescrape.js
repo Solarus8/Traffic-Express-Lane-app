@@ -9,7 +9,7 @@ const jsonFileName = targetRoute + '_coordinates.json'
 const zoom = 16;
 // Function to generate Google Maps URL from coordinates
 const generateGoogleMapsUrl = (lat, lng, zoom) => {
-    return `https://www.google.com/maps/@${lat},${lng},${zoom}z`;
+    return `https://www.google.com/maps/@${lat},${lng},${zoom}z/data=!5m1!1e1?authuser=0&entry=ttu`;
 };
 
 // Read coordinates from coordinates.json
