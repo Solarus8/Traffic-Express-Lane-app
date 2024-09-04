@@ -13,6 +13,10 @@ start_datetime = datetime.now()
 # target_route = "TESTESTTEST"  # SET ME!!!
 
 
+if not os.path.exists("processed_traffic_images"):
+    os.makedirs("processed_traffic_images")
+
+
 ###Helper function to get the timestamp of the scrapped image
 def get_file_last_modified_date(file_path):
     timestamp = os.path.getmtime(file_path)
@@ -62,7 +66,7 @@ def process_pixels():
                 width, height = picture.size
                 # logger.info(f"width: {width}, height: {height}")
                 picture.save(
-                    f"{target_route}_point_{i+1}_10x10px_lat_{data[i]['lat']}_lng_{data[i]['lng']}.png"
+                    f"processed_traffic_images/{target_route}_point_{i+1}_10x10px_lat_{data[i]['lat']}_lng_{data[i]['lng']}.png"
                 )
                 green_pix_count = 0
                 yellow_pix_count = 0
@@ -149,3 +153,7 @@ def process_pixels():
     )
 
     return route_tiles_collection
+
+
+if __name__ == "__main__":
+    process_pixels()
