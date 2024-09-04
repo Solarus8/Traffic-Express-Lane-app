@@ -32,7 +32,7 @@ top = 395  #go in X pixels from the Top to start croped image
 right = 185 #go in X pixels from the left to stop the croped image (image right side)
 bottom = 405 #go in X pixels from the top to stop the croped image (image bottom side)
 
-with open("Log - images with no traffic colors.txt", "a") as log_file:
+with open("../Log - images with no traffic colors.txt", "a") as log_file:
     log_file.write(f"New Run of pixel_processing.py @ {start_datetime}\n")
     log_file.flush()
     # Load the target_coordinates.json file

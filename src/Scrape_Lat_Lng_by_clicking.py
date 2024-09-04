@@ -27,7 +27,7 @@ driver.execute_script(js_script) # Execute the JavaScript to add the event liste
 coord_list = []
 
 # Open a log file to write the URLs
-with open("url_log.txt", "a") as log_file:
+with open("../url_log.txt", "a") as log_file:
     print("Starting Scraping log...")
     log_file.write(f"*****Starting Scraping log...")
     log_file.flush()
