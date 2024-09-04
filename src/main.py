@@ -1,5 +1,7 @@
 import subprocess
 from time import time
+
+from pixel_processing import process_pixels
 from target_config import target_route
 
 print(f"\033[96mTarget Route: {target_route}\033[0m")
@@ -16,7 +18,8 @@ def main():
 
         # Run the pixel_processing.py script
         print("Running pixel_processing.py...")
-        result = subprocess.run(["python", "pixel_processing.py"], check=True)
+
+        result = process_pixels()
         print(f"\033[94mpixel_processing.py run completed successfully.\033[0m")
 
     except subprocess.CalledProcessError as e:
