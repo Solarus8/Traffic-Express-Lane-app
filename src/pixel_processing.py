@@ -1,4 +1,6 @@
 import os
+
+from logger import logger
 from target_config import target_route
 from datetime import datetime
 from PIL import Image
@@ -49,16 +51,18 @@ def process_pixels():
             # iterate through the captured images based on file name output by serversideimagescrape.js
             # images must be in the same directory as this script
             for i in range(len(data)):
-                print(f"point {i+1} === Lat {data[i]['lat']}, Lng {data[i]['lng']}")
+                logger.info(
+                    f"point {i+1} === Lat {data[i]['lat']}, Lng {data[i]['lng']}"
+                )
                 src_image_path = (
                     f"{target_route}_{data[i]['lat']}_{data[i]['lng']}_16x_360x800.png"
                 )
                 picture = Image.open(src_image_path)
                 capture_time = get_file_last_modified_date(src_image_path)
-                print(f"Image captured: {capture_time}")
+                logger.info(f"Image captured: {capture_time}")
                 picture = picture.crop((left, top, right, bottom))
                 width, height = picture.size
-                # print(f"width: {width}, height: {height}")
+                # logger.info(f"width: {width}, height: {height}")
                 picture.save(
                     f"{target_route}_point_{i+1}_10x10px_lat_{data[i]['lat']}_lng_{data[i]['lng']}.png"
                 )
@@ -71,37 +75,39 @@ def process_pixels():
                         current_color = picture.getpixel((x, y))
                         if current_color == (22, 224, 152):
                             green_pix_count += 1
-                            print(f"Green pixel at x: {x}, y: {y}")
+                            logger.info(f"Green pixel at x: {x}, y: {y}")
                         elif current_color == (255, 207, 67):
                             yellow_pix_count += 1
-                            print(f"Yellow pixel at x: {x}, y: {y}")
+                            logger.info(f"Yellow pixel at x: {x}, y: {y}")
                         elif current_color == (242, 78, 66):
                             red_pix_count += 1
-                            print(f"Red pixel at x: {x}, y: {y}")
+                            logger.info(f"Red pixel at x: {x}, y: {y}")
                         elif current_color == (169, 39, 39):
                             dark_red_pix_count += 1
-                            print(f"Dark Red pixel at x: {x}, y: {y}")
-                print(f"\033[32mGreen pixel count: {green_pix_count}\033[0m")
-                print(f"\033[33mYellow pixel count: {yellow_pix_count}\033[0m")
-                print(f"\033[96mRed pixel count: {red_pix_count}\033[0m")
-                print(f"\033[90mDark Red pixel count: {dark_red_pix_count}\033[0m")
+                            logger.info(f"Dark Red pixel at x: {x}, y: {y}")
+                logger.info(f"\033[32mGreen pixel count: {green_pix_count}\033[0m")
+                logger.info(f"\033[33mYellow pixel count: {yellow_pix_count}\033[0m")
+                logger.info(f"\033[96mRed pixel count: {red_pix_count}\033[0m")
+                logger.info(
+                    f"\033[90mDark Red pixel count: {dark_red_pix_count}\033[0m"
+                )
                 all_color_pix_count = (
                     green_pix_count
                     + yellow_pix_count
                     + red_pix_count
                     + dark_red_pix_count
                 )
-                print(f"All traffic pixel count: {all_color_pix_count}")
+                logger.info(f"All traffic pixel count: {all_color_pix_count}")
                 warning_count = 0
                 if all_color_pix_count == 0:
-                    print(
+                    logger.info(
                         f"WARNING {warning_count}: No primary traffic color pixels found in the image at: {src_image_path}"
                     )
                     log_file.write(
                         f"WARNING {warning_count}: No primary traffic color pixels found in the image at: {src_image_path}\n"
                     )
                     log_file.flush()
-                    print(f"WARNING {warning_count}: @ time: {datetime.now()}")
+                    logger.info(f"WARNING {warning_count}: @ time: {datetime.now()}")
                     log_file.write(
                         f"WARNING {warning_count}: @ time: {datetime.now()}\n"
                     )
@@ -121,7 +127,9 @@ def process_pixels():
                     src_image_path,
                     capture_time,
                 )
-                print(f"Traffic Level (0-10): {current_TrafficTile.traffic_level}")
+                logger.info(
+                    f"Traffic Level (0-10): {current_TrafficTile.traffic_level}"
+                )
                 route_tiles_collection[
                     f"processed_traffic_images/{target_route} point {i+1}"
                 ] = current_TrafficTile
@@ -130,15 +138,15 @@ def process_pixels():
         )
         log_file.flush()
     # report status of the route_tiles_collection
-    print(
+    logger.info(
         f"** {target_route}'s route_tiles_collection is now populated with TrafficTile objects derived from the input images **"
     )
 
     ### timer for the script
     end_time = time()
     run_time = end_time - start_time
-    print(f"\033[34mpixel_processing.py Run time: {run_time} seconds\033[0m")
-    print(
+    logger.info(f"\033[34mpixel_processing.py Run time: {run_time} seconds\033[0m")
+    logger.info(
         f"\033[32mRun of pixel_processing.py started @ {start_datetime} has completed\033[0m"
     )
 

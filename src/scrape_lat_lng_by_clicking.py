@@ -4,6 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import urllib.parse
 import json
+
+from logger import logger
 from target_config import target_route
 
 ###
@@ -29,7 +31,7 @@ coord_list = []
 
 # Open a log file to write the URLs
 with open("../url_log.txt", "a") as log_file:
-    print("Starting Scraping log...")
+    logger.info("Starting Scraping log...")
     log_file.write(f"*****Starting Scraping log...")
     log_file.flush()
     try:
@@ -60,12 +62,12 @@ with open("../url_log.txt", "a") as log_file:
                 coord_list.append(current_latlng_dict)
 
                 # Print the URL and coordinates to the console
-                print(f"Logged URL: {current_url}")
-                print(f"Latitude: {latitude}, Longitude: {longitude}")
+                logger.info(f"Logged URL: {current_url}")
+                logger.info(f"Latitude: {latitude}, Longitude: {longitude}")
             # except selenium.common.exceptions.TimeoutException: # type: ignore
-            #    print("Timeout waiting for URL to change. Retrying...")
+            #    logger.info("Timeout waiting for URL to change. Retrying...")
     except KeyboardInterrupt:
-        print("Stopped logging on KeyboardInterrupt!")
+        logger.info("Stopped logging on KeyboardInterrupt!")
     finally:
         # Write the list of coordinates to a JSON file
         with open(f"{target_route}_coordinates.json", "w") as json_file:
