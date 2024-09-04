@@ -112,7 +112,9 @@ with open("../Log - images with no traffic colors.txt", "a") as log_file:
                 capture_time,
             )
             print(f"Traffic Level (0-10): {current_TrafficTile.traffic_level}")
-            route_tiles_collection[f"{target_route} point {i+1}"] = current_TrafficTile
+            route_tiles_collection[
+                f"processed_traffic_images/{target_route} point {i+1}"
+            ] = current_TrafficTile
     log_file.write(
         f"\033[32mRun of pixel_processing.py started @ {start_datetime} has completed\033[0m"
     )
