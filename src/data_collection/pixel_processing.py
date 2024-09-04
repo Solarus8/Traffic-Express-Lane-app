@@ -1,6 +1,6 @@
 import os
 
-from logger import logger
+from common.logger import logger
 from target_config import target_route
 from datetime import datetime
 from PIL import Image
@@ -42,7 +42,7 @@ def process_pixels():
         405  # go in X pixels from the top to stop the croped image (image bottom side)
     )
 
-    with open("../Log - images with no traffic colors.txt", "a") as log_file:
+    with open("../../Log - images with no traffic colors.txt", "a") as log_file:
         log_file.write(f"New Run of pixel_processing.py @ {start_datetime}\n")
         log_file.flush()
         # Load the target_coordinates.json file

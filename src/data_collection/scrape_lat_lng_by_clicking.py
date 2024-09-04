@@ -1,11 +1,10 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import urllib.parse
 import json
 
-from logger import logger
+from common.logger import logger
 from target_config import target_route
 
 ###
@@ -30,7 +29,7 @@ driver.execute_script(js_script)  # Execute the JavaScript to add the event list
 coord_list = []
 
 # Open a log file to write the URLs
-with open("../url_log.txt", "a") as log_file:
+with open("../../url_log.txt", "a") as log_file:
     logger.info("Starting Scraping log...")
     log_file.write(f"*****Starting Scraping log...")
     log_file.flush()
