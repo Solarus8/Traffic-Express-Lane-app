@@ -54,9 +54,7 @@ def process_pixels():
                 logger.info(
                     f"point {i+1} === Lat {data[i]['lat']}, Lng {data[i]['lng']}"
                 )
-                src_image_path = (
-                    f"{target_route}_{data[i]['lat']}_{data[i]['lng']}_16x_360x800.png"
-                )
+                src_image_path = f"raw_traffic_images/{target_route}_{data[i]['lat']}_{data[i]['lng']}_16x_360x800.png"
                 picture = Image.open(src_image_path)
                 capture_time = get_file_last_modified_date(src_image_path)
                 logger.info(f"Image captured: {capture_time}")
