@@ -43,7 +43,8 @@ fs.readFile('target_config.json', 'utf8', (err, data) => {
             await page.goto(websiteUrl, { waitUntil: 'networkidle0' });
 
             // Capture screenshot.
-            const screenshotPath = `raw_traffic_images/${targetRoute}_${lat}_${lng}_${zoom}x_360x800.png`;
+            // ToDo: targetRoute needs to be dynamic
+            const screenshotPath = `raw_traffic_images/${targetRoute}_${lat}_${lng}.png`;
             await page.screenshot({ path: screenshotPath });
 
             console.log(`Screenshot saved: ${screenshotPath}`);
