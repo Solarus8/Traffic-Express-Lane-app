@@ -342,5 +342,8 @@ pyrightconfig.json
 .history
 .ionide
 
+### Pycharm  ###
+.idea
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,python
 url_log.txt
