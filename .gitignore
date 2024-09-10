@@ -3,8 +3,6 @@
 **/.DS_Store
 
 # Traffic App archive folder
-Frontend Temp Assests/
-Other Docs/
 traffic_data
 
 # Traffic App logging and other Test files
