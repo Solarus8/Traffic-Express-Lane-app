@@ -2,6 +2,7 @@ from math import dist, sqrt
 
 
 def point_to_line_distance(point, line_start, line_end):
+    # https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line
     x0, y0 = point
     x1, y1 = line_start
     x2, y2 = line_end

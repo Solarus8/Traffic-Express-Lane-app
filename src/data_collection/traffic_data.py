@@ -13,7 +13,7 @@ BASE_URL = (
 )
 
 
-def get_traffic_from_api(origin, destination):
+def get_traffic_from_api(origin, destination) -> dict:
     url = BASE_URL.format(origin=origin, destination=destination, key=API_KEY)
     resp = requests.get(url)
     data = resp.json()
@@ -22,14 +22,14 @@ def get_traffic_from_api(origin, destination):
     return data
 
 
-def get_traffic_from_file(origin, destination):
+def get_traffic_from_file(origin, destination) -> dict:
     path = f"traffic_data/{origin}_{destination}.json"
     with open(path) as f:
         data = json.load(f)
     return data
 
 
-def get_traffic(origin, destination):
+def get_traffic(origin, destination) -> dict:
     try:
         data = get_traffic_from_file(origin, destination)
     except FileNotFoundError:
@@ -37,7 +37,8 @@ def get_traffic(origin, destination):
     return data
 
 
-def get_traffic_rating(origin, destination):
+def get_traffic_rating(origin, destination) -> float:
+    """Return a float value of how many times the trip takes longer because of traffic."""
     data = get_traffic(origin, destination)
     routes = data["routes"]
     print("routes:", len(routes), routes)
