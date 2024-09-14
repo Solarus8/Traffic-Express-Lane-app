@@ -1,8 +1,11 @@
 import json
 import os
+import urllib.parse
 
 import requests
 from dotenv import load_dotenv
+
+from common.custom_types import Coordinate
 
 load_dotenv()
 
@@ -13,23 +16,24 @@ BASE_URL = (
 )
 
 
-def get_traffic_from_api(origin, destination) -> dict:
+def get_traffic_from_api(origin: Coordinate, destination: Coordinate) -> dict:
     url = BASE_URL.format(origin=origin, destination=destination, key=API_KEY)
-    resp = requests.get(url)
+    encoded_url = urllib.parse.quote(url, safe=":/?&=")
+    resp = requests.get(encoded_url)
     data = resp.json()
     with open(f"traffic_data/{origin}_{destination}.json", "w") as f:
         json.dump(data, f, indent=2)
     return data
 
 
-def get_traffic_from_file(origin, destination) -> dict:
+def get_traffic_from_file(origin: Coordinate, destination: Coordinate) -> dict:
     path = f"traffic_data/{origin}_{destination}.json"
     with open(path) as f:
         data = json.load(f)
     return data
 
 
-def get_traffic(origin, destination) -> dict:
+def get_traffic(origin: Coordinate, destination: Coordinate) -> dict:
     try:
         data = get_traffic_from_file(origin, destination)
     except FileNotFoundError:
@@ -37,9 +41,11 @@ def get_traffic(origin, destination) -> dict:
     return data
 
 
-def get_traffic_rating(origin, destination) -> float:
+def get_traffic_rating(origin: Coordinate, destination: Coordinate) -> float:
     """Return a float value of how many times the trip takes longer because of traffic."""
+    print("origin:", origin, "destination:", destination)
     data = get_traffic(origin, destination)
+    print("data:", data)
     routes = data["routes"]
     print("routes:", len(routes), routes)
     route = routes[0]

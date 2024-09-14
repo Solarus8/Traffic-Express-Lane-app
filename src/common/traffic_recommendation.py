@@ -1,9 +1,10 @@
 from common.checkpoint import Checkpoint
+from common.custom_types import Coordinate
 from common.express_lane import ExpressLane
 from data_collection.traffic_data import get_traffic_rating
 
 
-def recommend(coordinates: tuple[float, ...]) -> ExpressLane | None:
+def recommend(coordinates: Coordinate) -> ExpressLane | None:
     """Find out if an express lane will be recommended for the given coordinates"""
     checkpoint = Checkpoint.from_coordinate(coordinates)
     if not checkpoint:
@@ -19,5 +20,5 @@ def recommend(coordinates: tuple[float, ...]) -> ExpressLane | None:
 
 
 if __name__ == "__main__":
-    current_coordinate = 39.834298, -105.0189317
+    current_coordinate = Coordinate(39.834298, -105.0189317)
     print("Recommends taking express lane:", recommend(current_coordinate))
