@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 from fastapi import WebSocket
 from starlette.websockets import WebSocketDisconnect
@@ -21,13 +21,21 @@ async def home():
 
 
 @router.websocket("/recommend")
-async def ws_recommend(websocket: WebSocket):
+async def ws_recommend(websocket: WebSocket, user_id: str = None):
+    await websocket.accept()
     last_recommendation = None
     try:
         while True:
-            coordinates = await websocket.receive_text()
+            data = await websocket.receive_json()
+            client_datetime = datetime.fromtimestamp(data["timestamp"], timezone.utc)
+            server_datetime = datetime.now(timezone.utc)
+            time_diff = server_datetime - client_datetime
+            if time_diff > timedelta(milliseconds=200):
+                logger.warning(
+                    f"Client {user_id}'s timestamp is {time_diff.total_seconds()} seconds before server's"
+                )
+            coordinates = Coordinate.from_str(data["coordinates"])
             logger.debug(f"Received coordinates: `{coordinates}`")
-            coordinates = Coordinate.from_str(coordinates)
             lane = recommend(coordinates)
             if lane is not last_recommendation:
                 last_recommendation = lane
@@ -39,8 +47,8 @@ async def ws_recommend(websocket: WebSocket):
                 await websocket.send_text(text)
 
     except WebSocketDisconnect:
-        logger.debug("Client disconnected from websocket `recommend` as expected.")
+        logger.debug("Client disconnected from ws_recommend as expected.")
     except Exception as e:
         logger.error(
-            f"Client disconnected from 24hr_price_ticker with error: {e.__class__.__name__}: {e}"
+            f"Client disconnected from ws_recommend with error: {e.__class__.__name__}: {e}"
         )

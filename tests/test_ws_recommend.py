@@ -24,9 +24,14 @@ def test_ws_recommend():
         mock_recommend.return_value = mock_lane
 
         # Connect to WebSocket
-        with client.websocket_connect("/api/recommend") as websocket:
-            # Send coordinates in JSON format
-            websocket.send_text("39.834298,-105.0189317")
+        with client.websocket_connect("/api/recommend?user_id=123") as websocket:
+            # Send data in JSON format
+            websocket.send_json(
+                {
+                    "coordinates": "39.834298,-105.0189317",
+                    "timestamp": 1726931872.528192,
+                }
+            )
 
             # Receive response
             response = websocket.receive_text()
@@ -45,9 +50,14 @@ def test_ws_recommend_no_lane():
         mock_recommend.return_value = None  # Simulate no lane recommendation
 
         # Connect to WebSocket
-        with client.websocket_connect("/api/recommend") as websocket:
-            # Send coordinates in JSON format
-            websocket.send_text("39.834298,-105.0189317")
+        with client.websocket_connect("/api/recommend?user_id=123") as websocket:
+            # Send data in JSON format
+            websocket.send_json(
+                {
+                    "coordinates": "39.834298,-105.0189317",
+                    "timestamp": 1726931872.528192,
+                }
+            )
 
             # Receive response
             response = websocket.receive_text()
