@@ -12,6 +12,14 @@ class ExpressLane:
     end_coordinate: Coordinate
     route: str
 
+    def as_json(self) -> dict:
+        return {
+            "name": self.name,
+            "start_coordinate": str(self.start_coordinate),
+            "end_coordinate": str(self.end_coordinate),
+            "route": self.route,
+        }
+
 
 express_lanes_by_start = {}
 for file_name in os.listdir("resources"):

@@ -6,6 +6,10 @@ class Coordinate:
     latitude: float
     longitude: float
 
+    @classmethod
+    def from_str(cls, c) -> "Coordinate":
+        return cls(*c.split(","))
+
     def __str__(self):
         return ",".join(map(str, self))
 
