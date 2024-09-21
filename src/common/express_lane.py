@@ -2,12 +2,23 @@ import csv
 import os
 from dataclasses import dataclass
 
+from common.custom_types import Coordinate
+
 
 @dataclass
 class ExpressLane:
-    start_coordinate: tuple[float, ...]
-    end_coordinate: tuple[float, ...]
+    name: str
+    start_coordinate: Coordinate
+    end_coordinate: Coordinate
     route: str
+
+    def as_json(self) -> dict:
+        return {
+            "name": self.name,
+            "start_coordinate": str(self.start_coordinate),
+            "end_coordinate": str(self.end_coordinate),
+            "route": self.route,
+        }
 
 
 express_lanes_by_start = {}
@@ -18,8 +29,10 @@ for file_name in os.listdir("resources"):
             reader = csv.reader(f)
             next(reader, None)  # Skip header
             for row in reader:
-                start = tuple(map(float, row))
+                name = row.pop()
+                start = Coordinate(*map(float, row))
                 row = next(reader)
-                end = tuple(map(float, row))
-                express_lane = ExpressLane(start, end, route_name)
+                row.pop()  # Remove redundant name
+                end = Coordinate(*map(float, row))
+                express_lane = ExpressLane(name, start, end, route_name)
                 express_lanes_by_start[start] = express_lane
