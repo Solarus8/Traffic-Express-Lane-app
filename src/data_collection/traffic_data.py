@@ -43,19 +43,13 @@ def get_traffic(origin: Coordinate, destination: Coordinate) -> dict:
 
 def get_traffic_rating(origin: Coordinate, destination: Coordinate) -> float:
     """Return a float value of how many times the trip takes longer because of traffic."""
-    print("origin:", origin, "destination:", destination)
     data = get_traffic(origin, destination)
-    print("data:", data)
     routes = data["routes"]
-    print("routes:", len(routes), routes)
     route = routes[0]
     legs = route["legs"]
-    print("legs:", len(legs), legs)
     leg = legs[0]
     duration = leg["duration"]["value"]
-    print("duration:", duration)
     duration_in_traffic = leg["duration_in_traffic"]["value"]
-    print("duration_in_traffic:", duration_in_traffic)
     return duration_in_traffic / duration
 
 
