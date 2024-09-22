@@ -29,10 +29,10 @@ for file_name in os.listdir("resources"):
             reader = csv.reader(f)
             next(reader, None)  # Skip header
             for row in reader:
-                name = row.pop()
-                start = Coordinate(*map(float, row))
+                name = row[2]
+                start = Coordinate(*map(float, row[:2]))
                 row = next(reader)
                 row.pop()  # Remove redundant name
-                end = Coordinate(*map(float, row))
+                end = Coordinate(*map(float, row[:2]))
                 express_lane = ExpressLane(name, start, end, route_name)
                 express_lanes_by_start[start] = express_lane
