@@ -36,12 +36,14 @@ async def ws_recommend(websocket: WebSocket, user_id: str = None):
                 )
             coordinates = Coordinate.from_str(data["coordinates"])
             logger.debug(f"Received coordinates: `{coordinates}`")
-            lane = recommend(coordinates)
+            do_recommend, lane = recommend(coordinates)
             if lane is not last_recommendation:
                 last_recommendation = lane
                 logger.debug("Lane recommended:", lane)
                 if lane:
-                    text = json.dumps(lane.as_json())
+                    data = lane.as_json()
+                    data["recommend"] = do_recommend
+                    text = json.dumps(data)
                 else:
                     text = "None"
                 await websocket.send_text(text)

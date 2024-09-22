@@ -4,7 +4,7 @@ from common.express_lane import ExpressLane
 from data_collection.traffic_data import get_traffic_rating
 
 
-def recommend(coordinates: Coordinate, sensitivity: float = 1.5) -> ExpressLane | None:
+def recommend(coordinates: Coordinate, sensitivity: float = 1.5) -> (None | bool, ExpressLane):
     """Find out if an express lane will be recommended for the given coordinates"""
     checkpoint = Checkpoint.from_coordinate(coordinates)
     if not checkpoint:
@@ -16,7 +16,8 @@ def recommend(coordinates: Coordinate, sensitivity: float = 1.5) -> ExpressLane 
     print("Rating:", rating)
     # If it takes 1.5 times longer than usual because of traffic, recommend
     if rating > sensitivity:
-        return express_lane
+        return True, express_lane
+    return False, express_lane
 
 
 if __name__ == "__main__":
