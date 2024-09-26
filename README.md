@@ -17,5 +17,4 @@ The folder `common` contains everything that may not be unique to the API.<br>
 We only have one endpoint so far, which is a websocket.
 It can be called with `<domain>/api/recommend?user_id=<id>`, where `<domain>` is the domain and `<id>`
 is the user ID created by the frontend.
-It expects a JSON string when sending information to it, which should contain coordinate information
-as in https://capacitorjs.com/docs/apis/geolocation.
+It expects a JSON string when sending information to it, which should contain coordinate information (Position Objects) as in https://capacitorjs.com/docs/apis/geolocation.
