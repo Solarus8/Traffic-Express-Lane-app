@@ -3,6 +3,8 @@ const path = require('path');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 // Absolute path to the JSON file
+
+//CONFIGURE THE PATH TO THE JSON FILE
 const jsonFilePath = path.join(__dirname, 'travelPathtest.json');
 
 // Step 1: Read the JSON file
