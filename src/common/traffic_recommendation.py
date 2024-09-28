@@ -4,7 +4,9 @@ from common.express_lane import ExpressLane
 from data_collection.traffic_data import get_traffic_rating
 
 
-def recommend(coordinates: Coordinate, sensitivity: float = 1.5) -> (None | bool, ExpressLane):
+def recommend(
+    coordinates: Coordinate, sensitivity: float = 1.5
+) -> (None | bool, ExpressLane):
     """Find out if an express lane will be recommended for the given coordinates"""
     checkpoint = Checkpoint.from_coordinate(coordinates)
     if not checkpoint:
