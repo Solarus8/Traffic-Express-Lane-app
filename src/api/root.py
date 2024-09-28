@@ -45,6 +45,9 @@ async def recommend_express_lane(request: Request, checkpoint: Checkpoint):
 @router.websocket("/ws")
 async def ws(websocket: WebSocket, user_id: str = None):
     """Main websocket for communication between server and client."""
+    raise DeprecationWarning(
+        "This websocket is deprecated and will be removed in a future release."
+    )
     await websocket.accept()
     manager = CommunicationManager(websocket, user_id)
     try:
