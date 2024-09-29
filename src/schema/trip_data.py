@@ -11,7 +11,7 @@ class ExpressLane(BaseModel):
 class Events(BaseModel):
     entered_freeway: list[float]
     express_lanes: list[ExpressLane]
-    entered_freeway: list[float]
+    exited_freeway: list[float]
 
 
 class TripData(BaseModel):
