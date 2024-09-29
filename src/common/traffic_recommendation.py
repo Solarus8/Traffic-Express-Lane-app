@@ -5,10 +5,10 @@ from data_collection.traffic_data import get_traffic_rating, get_duration_in_tra
 
 
 def recommend(
-    coordinates: Coordinate, sensitivity: float = 1.5
+    checkpoint_name, sensitivity: float = 1.5
 ) -> (bool, None | float, None | ExpressLane, str):
     """Find out if an express lane will be recommended for the given coordinates"""
-    checkpoint = Checkpoint.from_coordinate(coordinates)
+    checkpoint = Checkpoint.by_name(checkpoint_name)
     if not checkpoint:
         return False, None, None, "No checkpoint found"
     # ToDo: add case if express lane is closed

@@ -36,9 +36,7 @@ async def trip_data(request: Request, data: TripData):
 
 @router.get("/recommend")
 async def recommend_express_lane(request: Request, checkpoint: Checkpoint):
-    do_recommend, estimated_time_saving, lane, comment = recommend(
-        Coordinate(*checkpoint.coordinate)
-    )
+    do_recommend, estimated_time_saving, lane, comment = recommend(checkpoint.name)
     data = lane.as_json()
     data["recommend"] = do_recommend
     data["estimated_time_saving"] = estimated_time_saving
