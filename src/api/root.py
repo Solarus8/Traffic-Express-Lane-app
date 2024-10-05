@@ -6,7 +6,7 @@ from starlette.requests import Request
 from starlette.websockets import WebSocketDisconnect
 
 from api import router
-from common.communication_manager import CommunicationManager
+# from common.communication_manager import CommunicationManager
 from common.logger import logger
 from common.traffic_recommendation import recommend
 from schema.gate import Gate
