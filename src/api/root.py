@@ -43,7 +43,7 @@ async def recommend_express_lane(request: Request, checkpoint: Checkpoint):
     data["comment"] = comment
     return data
 
-
+### This is the deprecated websocket endpoint
 @router.websocket("/ws")
 async def ws(websocket: WebSocket, user_id: str = None):
     """Main websocket for communication between server and client."""
