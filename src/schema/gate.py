@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class Checkpoint(BaseModel):
+class Gate(BaseModel):
     """A checkpoint crossed on the road."""
 
     name: str

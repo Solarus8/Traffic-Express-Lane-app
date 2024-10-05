@@ -6,13 +6,13 @@ from common.express_lane import ExpressLane, express_lanes_by_start
 
 
 @dataclass
-class Checkpoint:
+class Gate:
     name: str
-    points: tuple[Coordinate, ...]
+    points: (Coordinate, Coordinate)
     express_lane_start: Coordinate
 
     @classmethod
-    def by_name(cls, name: str) -> "Checkpoint":
+    def by_name(cls, name: str) -> "Gate":
         for checkpoint in checkpoints:
             if checkpoint.name == name:
                 return checkpoint
@@ -32,5 +32,5 @@ with open("resources/checkpoints.csv") as f:
         express_lane_start = tuple(map(float, row[3:5]))
         next(reader, None)
         b = Coordinate(*map(float, row[1:3]))
-        checkpoint = Checkpoint(name, (a, b), Coordinate(*express_lane_start))
+        checkpoint = Gate(name, (a, b), Coordinate(*express_lane_start))
         checkpoints.append(checkpoint)

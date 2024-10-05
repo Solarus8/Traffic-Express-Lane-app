@@ -1,4 +1,4 @@
-from common.checkpoint import Checkpoint
+from common.gate import Gate
 from common.custom_types import Coordinate
 from common.express_lane import ExpressLane
 from data_collection.traffic_data import get_traffic_rating, get_duration_in_traffic
@@ -8,7 +8,7 @@ def recommend(
     checkpoint_name, sensitivity: float = 1.5
 ) -> (bool, None | float, None | ExpressLane, str):
     """Find out if an express lane will be recommended for the given coordinates"""
-    checkpoint = Checkpoint.by_name(checkpoint_name)
+    checkpoint = Gate.by_name(checkpoint_name)
     if not checkpoint:
         return False, None, None, "No checkpoint found"
     # ToDo: add case if express lane is closed
