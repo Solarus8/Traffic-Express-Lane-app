@@ -7,10 +7,9 @@ from starlette.websockets import WebSocketDisconnect
 
 from api import router
 from common.communication_manager import CommunicationManager
-from common.custom_types import Coordinate
 from common.logger import logger
 from common.traffic_recommendation import recommend
-from schema.checkpoint import Checkpoint
+from schema.gate import Gate
 from schema.trip_data import TripData
 
 
@@ -35,8 +34,8 @@ async def trip_data(request: Request, data: TripData):
 
 
 @router.get("/recommend")
-async def recommend_express_lane(request: Request, checkpoint: Checkpoint):
-    do_recommend, estimated_time_saving, lane, comment = recommend(checkpoint.name)
+async def recommend_express_lane(request: Request, gate: Gate):
+    do_recommend, estimated_time_saving, lane, comment = recommend(gate.name)
     data = lane.as_json()
     data["recommend"] = do_recommend
     data["estimated_time_saving"] = estimated_time_saving
