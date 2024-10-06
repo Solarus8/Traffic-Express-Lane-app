@@ -1,17 +1,25 @@
 from pydantic import BaseModel
 
 
-class ExpressLane(BaseModel):
-    name: str
-    entered_at: list[float]
-    recommendation: bool
-    used: bool
+class Coords(BaseModel):
+    altitude: float
+    altitudeAccuracy: float
+    longitude: float
+    latitude: float
+    speed: float
+    accuracy: float
+    heading: float
+
+
+class Position(BaseModel):
+    coords: Coords
+    timestamp: int
 
 
 class Events(BaseModel):
-    entered_freeway: list[float]
-    express_lanes: list[ExpressLane]
-    exited_freeway: list[float]
+    event_num: int
+    gate_name: str
+    timestamp: int
 
 
 class TripData(BaseModel):
@@ -19,5 +27,7 @@ class TripData(BaseModel):
 
     session_id: str
     fingerprint: str
-    events: Events
-    positions: list[list[float]]
+    start_time: int
+    end_time: int
+    events: list[Events]
+    positions: list[Position]

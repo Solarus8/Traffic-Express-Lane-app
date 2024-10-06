@@ -7,24 +7,46 @@ POST {{base_url}}/trip
 Content-Type: application/json
 
 {
-  "session_id": "abc123",
-  "fingerprint": "xyz789",
-  "events": {
-    "entered_freeway": [1.2345, -2.4567],
-    "express_lanes": [
-      {
-        "name": "Lowell (WB)",
-        "entered_at": [1.3214, -2.4666],
-        "recommendation": true,
-        "used": false
-      }
-    ],
-    "exited_freeway": [1.3456, -2.5678]
-  },
+  "session_id": "<sessionID>",
+  "fingerprint": "<deviceID>",
+  "start_time": 1727107413999,
+  "end_time": 1727107413999,
   "positions": [
-    [1.1111, -1.1111],
-    [2.2222, -2.2222],
-    [3.3333, -3.3333],
-    [4.4444, -4.4444]
+    {
+      "coords": {
+          "altitude": 1595.6013481356204,
+          "altitudeAccuracy": 3.362944215271204,
+          "longitude": -105.2183381564182,
+          "latitude": 40.01473962980997,
+          "speed": 18.49251184835255,
+          "accuracy": 4.745012459178878,
+          "heading": 269.87884521484375
+      },
+      "timestamp": 1727107413999
+    },
+    {
+      "coords": {
+          "latitude": 40.01473827038521,
+          "altitudeAccuracy": 3.3630896105805603,
+          "accuracy": 4.744909409461252,
+          "altitude": 1595.6685933023691,
+          "speed": 19.024563605808805,
+          "heading": 269.58176819017297,
+          "longitude": -105.21856135282599
+      },
+      "timestamp": 1727107414999
+    }
+  ],
+  "events": [
+    {
+      "event_num": 1,
+      "gate_name": "WB Lowell Entrance 1",
+      "timestamp": 1727107413999
+    },
+    {
+      "event_num": 2,
+      "gate_name": "WB Lowell Express Lane Gate",
+      "timestamp": 1727107414999
+    }
   ]
 }

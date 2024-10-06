@@ -45,4 +45,5 @@ Example: Look at `test/post_trip_data.http`
 null
 
 
-It expects a JSON string when sending information to it, which should contain coordinate information (Position Objects) as in https://capacitorjs.com/docs/apis/geolocation.
+## Useful Links
+https://capacitorjs.com/docs/apis/geolocation.
