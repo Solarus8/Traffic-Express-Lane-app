@@ -16,18 +16,23 @@ BASE_URL = (
 )
 
 
+base_directory = "traffic_data"
+if not os.path.exists(base_directory):
+    os.makedirs(base_directory)
+
+
 def get_traffic_from_api(origin: Coordinate, destination: Coordinate) -> dict:
     url = BASE_URL.format(origin=origin, destination=destination, key=API_KEY)
     encoded_url = urllib.parse.quote(url, safe=":/?&=")
     resp = requests.get(encoded_url)
     data = resp.json()
-    with open(f"traffic_data/{origin}_{destination}.json", "w") as f:
+    with open(f"{base_directory}/{origin}_{destination}.json", "w") as f:
         json.dump(data, f, indent=2)
     return data
 
 
 def get_traffic_from_file(origin: Coordinate, destination: Coordinate) -> dict:
-    path = f"traffic_data/{origin}_{destination}.json"
+    path = f"{base_directory}/{origin}_{destination}.json"
     with open(path) as f:
         data = json.load(f)
     return data
