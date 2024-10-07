@@ -1,12 +1,12 @@
 [
     {
-        "name": "Lowell Ave",
-        "direction": "West",
-        "start": {
+        "lane_name": "Lowell",
+        "direction": "WB",
+        "lines_start": {
             "latitude": 39.835657,
             "longitude": -105.022941
         },
-        "end": {
+        "lines_end": {
             "latitude": 39.842883,
             "longitude": -105.040233
         },
