@@ -1,13 +1,13 @@
 import os
 from datetime import datetime
 
-from fastapi import WebSocket
+#for websockets#    from fastapi import WebSocket
 from starlette.requests import Request
-from starlette.websockets import WebSocketDisconnect
+#for websockets#    from starlette.websockets import WebSocketDisconnect
 
 from api import router
-# from common.communication_manager import CommunicationManager
-from common.logger import logger
+#for websockets#    from common.communication_manager import CommunicationManager
+#used in websockets only#   from common.logger import logger
 from common.traffic_recommendation import recommend
 from schema.gate import Gate
 from schema.trip_data import TripData
@@ -43,6 +43,7 @@ async def recommend_express_lane(request: Request, gate: Gate):
     return data
 
 ### This is the deprecated websocket endpoint
+'''
 @router.websocket("/ws")
 async def ws(websocket: WebSocket, user_id: str = None):
     """Main websocket for communication between server and client."""
@@ -61,3 +62,4 @@ async def ws(websocket: WebSocket, user_id: str = None):
         logger.error(
             f"Client disconnected from ws_recommend with error: {e.__class__.__name__}: {e}"
         )
+'''

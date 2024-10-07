@@ -1,0 +1,46 @@
+[
+  {
+    "fingerprint": "<deviceID>",
+    "start_time": "<2019-01-01T00:00:00Z>",
+    "end_time": "<2019-01-01T00:00:00Z>",
+
+    "positions": [
+      {
+        "coords": {
+            "altitude": 1595.6013481356204,
+            "altitudeAccuracy": 3.362944215271204,
+            "longitude": -105.2183381564182,
+            "latitude": 40.01473962980997,
+            "speed": 18.49251184835255,
+            "accuracy": 4.745012459178878,
+            "heading": 269.87884521484375
+        },
+        "timestamp": 1727107413999
+      },
+      {
+        "coords": {
+            "latitude": 40.01473827038521,
+            "altitudeAccuracy": 3.3630896105805603,
+            "accuracy": 4.744909409461252,
+            "altitude": 1595.6685933023691,
+            "speed": 19.024563605808805,
+            "heading": 269.58176819017297,
+            "longitude": -105.21856135282599
+        },
+        "timestamp": 1727107414999
+      },
+    ],
+    "events": [
+      {
+        "event#": 1,
+        "gate_name": "WB Lowell Entrance 1",
+        "timestamp": 1727107413999
+      },
+      {
+        "event#": 2,
+        "gate_name": "WB Lowell Express Lane Gate",
+        "timestamp": 1727107414999
+      }
+    ]
+  }
+]
