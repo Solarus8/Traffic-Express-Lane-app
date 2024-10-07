@@ -6,7 +6,7 @@ from common.custom_types import Coordinate
 
 
 @dataclass
-class ExpressLane:
+class ExpressLane:  # ToDo: rename to `ExpressLaneRecommendationRoute`
     name: str
     start_coordinate: Coordinate
     end_coordinate: Coordinate

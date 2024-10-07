@@ -11,8 +11,13 @@ def recommend(
     gate = Gate.by_name(gate_name)
     if not gate:
         return False, None, None, "No gate found"
-    # ToDo: add case if express lane is closed
+
     express_lane = gate.express_lane
+
+    # ToDo: add `.is_open` to express lane, which just checks if the current hour is within the open hours
+    # if not express_lane.is_open:
+    #     return False, None, express_lane, "Express lane is closed"
+
     duration, duration_in_traffic = get_duration_in_traffic(
         express_lane.start_coordinate, express_lane.end_coordinate
     )
