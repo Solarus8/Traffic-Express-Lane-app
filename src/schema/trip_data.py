@@ -1,33 +1,28 @@
 from pydantic import BaseModel
 
-
 class Coords(BaseModel):
-    altitude: float
-    altitudeAccuracy: float
-    longitude: float
-    latitude: float
     speed: float
     accuracy: float
+    altitudeAccuracy: float
+    altitude: float
+    longitude: float
+    latitude: float
     heading: float
-
 
 class Position(BaseModel):
     coords: Coords
     timestamp: int
-
 
 class Events(BaseModel):
     event_num: int
     gate_name: str
     timestamp: int
 
-
 class TripData(BaseModel):
-    """Data received from a completed trip"""
-
-    session_id: str
-    fingerprint: str
+    device_id: str
+    device_info: str
+    sessoion_id: str
     start_time: int
     end_time: int
-    events: list[Events]
     positions: list[Position]
+    events: list[Events]

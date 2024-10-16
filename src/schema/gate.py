@@ -1,9 +1,9 @@
 from pydantic import BaseModel
 
-
 class Gate(BaseModel):
-    """A gate crossed on the road."""
-
     name: str
-    session_id: str
-    fingerprint: str
+    road_name: str
+    travel_direction: str
+    type: str
+    next_express_lane: str
+    gate_coords: list
