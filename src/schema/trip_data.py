@@ -21,7 +21,7 @@ class Events(BaseModel):
 class TripData(BaseModel):
     device_id: str
     device_info: str
-    sessoion_id: str
+    session_id: str
     start_time: int
     end_time: int
     positions: list[Position]

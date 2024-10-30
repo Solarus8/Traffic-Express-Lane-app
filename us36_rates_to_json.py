@@ -1,7 +1,7 @@
 import csv
 import json
 
-toll_rates_file = "Other Docs/express lane rates/US36 express lane rates.csv"
+toll_rates_file = "Other Docs/express lane rates/US36_rates/US36 EB express lane rates.csv"
 express_lanes_file = "src/resources/US36 EB express lane start and end points.csv"
 
 
@@ -22,10 +22,14 @@ with open(toll_rates_file) as f:
             for lane_name in express_lane_names:
                 lanes[lane_name] = {
                     "lane_name": lane_name,
-                    "direction": "WB",
+                    "road_name": "US36",
+                    "direction": "EB",
                     "lines_start": {},
                     "lines_end": {},
                     "effective_start": {},
+                    "effective_end": {},
+                    "lines_length": 0,
+                    "effective_length": 0,
                     "hours_tolls": {},
                 }
         else:
@@ -43,13 +47,12 @@ with open(express_lanes_file) as f:
         start_lat, start_lng, name, *_ = row
         next(reader)
         end_lat, end_lng, *_ = row
-        name = name.split()[0]
+       # name = name.split()[0]
         lane = lanes[name]
         lane["lines_start"]["latitude"] = start_lat
         lane["lines_start"]["longitude"] = start_lng
         lane["lines_end"]["latitude"] = end_lat
         lane["lines_end"]["longitude"] = end_lng
-
 
 result = list(lanes.values())
 

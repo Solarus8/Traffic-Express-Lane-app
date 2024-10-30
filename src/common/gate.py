@@ -8,7 +8,7 @@ from common.express_lane import ExpressLane, express_lanes_by_start
 @dataclass
 class Gate:
     name: str
-    points: (Coordinate, Coordinate)
+    points: {Coordinate, Coordinate}
     express_lane_start: Coordinate
 
     @classmethod

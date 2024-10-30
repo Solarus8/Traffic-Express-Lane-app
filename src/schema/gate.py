@@ -3,7 +3,7 @@ from pydantic import BaseModel
 class Gate(BaseModel):
     name: str
     road_name: str
-    travel_direction: str
+    direction: str
     type: str
     next_express_lane: str
-    gate_coords: list
+    gate_coords: tuple[tuple[float, float], tuple[float, float]]
