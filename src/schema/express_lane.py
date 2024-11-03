@@ -11,3 +11,4 @@ class ExpressLane(BaseModel):
     lines_length: float
     effective_length: float
     hours_tolls: dict[str, float]
+    hours_liscence_tolls: dict[str, float]
