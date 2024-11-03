@@ -19,8 +19,8 @@
       "latitude": "39.965477",
       "longitude": "-105.185505"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 1914,
+    "effective_length": 2784,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -84,8 +84,8 @@
       "latitude": "39.944190",
       "longitude": "-105.144849"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 3388,
+    "effective_length": 4079,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -149,8 +149,8 @@
       "latitude": "39.923863",
       "longitude": "-105.110183"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 3002,
+    "effective_length": 3933,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -214,8 +214,8 @@
       "latitude": "39.9017241",
       "longitude": "-105.081794"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2704,
+    "effective_length": 3655,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -279,8 +279,8 @@
       "latitude": "39.877762",
       "longitude": "-105.064976"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2075,
+    "effective_length": 3201,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -344,8 +344,8 @@
       "latitude": "39.846272",
       "longitude": "-105.044005"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 3089,
+    "effective_length": 4173,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "0.35",
@@ -409,8 +409,8 @@
       "latitude": "39.834042",
       "longitude": "-105.017887"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 1946,
+    "effective_length": 2861,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-06:30": "1.1",
@@ -474,8 +474,8 @@
       "latitude": "39.846216",
       "longitude": "-105.0437410"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 1705,
+    "effective_length": 2606,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.8",
@@ -537,8 +537,8 @@
       "latitude": "39.875629",
       "longitude": "-105.063126"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2764,
+    "effective_length": 3885,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
@@ -600,8 +600,8 @@
       "latitude": "39.899410",
       "longitude": "-105.080113"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2140,  
+    "effective_length": 8300, CHECK THIS VALUE - effective start and end points
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
@@ -663,8 +663,8 @@
       "latitude": "39.921868",
       "longitude": "-105.105765"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2509,
+    "effective_length": 3604,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
@@ -726,8 +726,8 @@
       "latitude": "39.948106",
       "longitude": "-105.150463"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 0,  MISSING this value from script output
+    "effective_length": 5014,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.8",
@@ -789,8 +789,8 @@
       "latitude": "39.965767",
       "longitude": "-105.185729"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2954,
+    "effective_length": 3632,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
@@ -852,8 +852,8 @@
       "latitude": "39.978603",
       "longitude": "-105.217180"
     },
-    "lines_length": 0,
-    "effective_length": 0,
+    "lines_length": 2328,
+    "effective_length": 3221,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
