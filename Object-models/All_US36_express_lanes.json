@@ -597,11 +597,11 @@
       "longitude": "-105.061748"
     },
     "effective_end": {
-      "latitude": "39.899410",
-      "longitude": "-105.080113"
+      "latitude": "39.899478",
+      "longitude": "-105.079948"
     },
     "lines_length": 2140,  
-    "effective_length": 8300, CHECK THIS VALUE - effective start and end points
+    "effective_length": 3259,
     "hours_tolls": {
       "05:00-06:00": "0.35",
       "06:00-07:15": "0.95",
@@ -726,7 +726,7 @@
       "latitude": "39.948106",
       "longitude": "-105.150463"
     },
-    "lines_length": 0,  MISSING this value from script output
+    "lines_length": 4117,
     "effective_length": 5014,
     "hours_tolls": {
       "05:00-06:00": "0.35",

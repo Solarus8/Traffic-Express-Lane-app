@@ -5,8 +5,7 @@ from time import sleep
 from common.custom_types import Coordinate
 from data_collection.traffic_data import get_traffic_from_api
 
-EB_express_lanes = "../Object-models/US36_EB_express_lanes_list.json"
-WB_express_lanes = "../Object-models/US36_WB_express_lanes_list.json"
+express_lanes_file = "../Object-models/All_US36_express_lanes.json"
 
 def print_duration_speed_traffic(data: dict):
     routes = data["routes"]
@@ -19,10 +18,8 @@ def print_duration_speed_traffic(data: dict):
     miles_hr = distance / duration_in_traffic * 3600 / 1609.34  # 1 mile = 1609.34 meters, 3600 seconds = 1 hour
     print(datetime.now(), "\nDistance:", distance, "\nAverage duration: ", duration, "seconds.\n Live traffic duration: ", duration_in_traffic, "seconds.\n  ", round(miles_hr, 2), "miles/hr average")
 
-with open(EB_express_lanes) as f:
+with open(express_lanes_file) as f:
     express_lanes = json.load(f)
-with open(WB_express_lanes) as f:
-    express_lanes.extend(json.load(f))
 
 #AI code to get traffic data into JSON file
 """ results = []
