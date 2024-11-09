@@ -16,22 +16,24 @@ def print_duration_speed_traffic(data: dict):
     duration = leg["duration"]["value"]
     duration_in_traffic = leg["duration_in_traffic"]["value"]
     miles_hr = distance / duration_in_traffic * 3600 / 1609.34  # 1 mile = 1609.34 meters, 3600 seconds = 1 hour
-    print(datetime.now(), "\nDistance:", distance, "\nAverage duration: ", duration, "seconds.\n Live traffic duration: ", duration_in_traffic, "seconds.\n  ", round(miles_hr, 2), "miles/hr average")
+    print(datetime.now().isoformat(), "\nDistance:", distance, "\nAverage duration: ", duration, "seconds.\n Live traffic duration: ", duration_in_traffic, "seconds.\n  ", round(miles_hr, 2), "miles/hr average")
 
 with open(express_lanes_file) as f:
     express_lanes = json.load(f)
 
 #AI code to get traffic data into JSON file
-""" results = []
+results = []
 for lane in express_lanes:
     lane_data = {}
     lines_start = Coordinate(lane["lines_start"]["latitude"], lane["lines_start"]["longitude"])
     lines_end = Coordinate(lane["lines_end"]["latitude"], lane["lines_end"]["longitude"])
     effective_start = Coordinate(lane["effective_start"]["latitude"], lane["effective_start"]["longitude"])
     effective_end = Coordinate(lane["effective_end"]["latitude"], lane["effective_end"]["longitude"])
-    
+    timestamp = datetime.now().isoformat()
+
     data = get_traffic_from_api(effective_start, effective_end)
     lane_data["effective_start_to_end"] = {
+        "timestamp": timestamp,
         "lane_name": lane["lane_name"],
         "road_name": lane["road_name"],
         "direction": lane["direction"],
@@ -40,6 +42,7 @@ for lane in express_lanes:
     
     data2 = get_traffic_from_api(lines_start, lines_end)
     lane_data["lines_start_to_end"] = {
+        "timestamp": timestamp,
         "lane_name": lane["lane_name"],
         "road_name": lane["road_name"],
         "direction": lane["direction"],
@@ -48,13 +51,13 @@ for lane in express_lanes:
     
     results.append(lane_data)
 
-with open('traffic_data_results.json', 'w') as outfile:
-    json.dump(results, outfile, indent=4) """
+with open(f'traffic_data_gmaps_api/traffic_data_mm-dd-hh-mm__{datetime.now().month}_{datetime.now().day}_{datetime.now().hour}_{datetime.now().minute}_UTC.json', 'w') as outfile:
+    json.dump(results, outfile, indent=4)
 #AI code to get traffic data into JSON file
 
 
 #below code prints to the console for testing
-for lane in express_lanes:
+""" for lane in express_lanes:
     lines_start = Coordinate(lane["lines_start"]["latitude"], lane["lines_start"]["longitude"])
     lines_end = Coordinate(lane["lines_end"]["latitude"], lane["lines_end"]["longitude"])
     effective_start = Coordinate(lane["effective_start"]["latitude"], lane["effective_start"]["longitude"])
@@ -64,4 +67,4 @@ for lane in express_lanes:
     print_duration_speed_traffic(data)
     data2 = get_traffic_from_api(lines_start, lines_end)
     print(f'{lane["lane_name"]} {lane["road_name"]} {lane["direction"]} : lines_start to lines_end -->')
-    print_duration_speed_traffic(data2)
+    print_duration_speed_traffic(data2) """
