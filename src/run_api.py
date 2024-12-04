@@ -9,18 +9,19 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, Response
 from starlette.status import HTTP_204_NO_CONTENT
 
-from common.logger import logger
+# from common.logger import logger
 
 load_dotenv()
 
-from api import router as api_router
-from api import root  # unused, but needed to load endpoints
+from src.api import router as api_router
+from src.api import root  # unused, but needed to load endpoints
 
 logging.getLogger("uvicorn.access").setLevel(logging.WARNING)
 logging.getLogger("uvicorn.error").setLevel(logging.WARNING)
 logging.getLogger("uvicorn").setLevel(logging.WARNING)
 logging.getLogger("starlette").setLevel(logging.WARNING)
 
+logger = logging.getLogger(__name__)
 
 DEBUG = os.environ.get("DEBUG")
 app = FastAPI()

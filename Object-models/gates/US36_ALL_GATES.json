@@ -1,0 +1,743 @@
+[
+    {
+        "name": "US36_EB_ENT_1_Overlook",
+        "spoken_name": "Foothills Parkway Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.875910531065,
+                "longitude": -105.04727878789
+            },
+            {
+                "latitude": 39.875915677116,
+                "longitude": -105.04701995472
+            }
+        ],
+        "____gate_coords": [
+            {
+                "latitude": 39.98355439361,
+                "longitude": -105.22857163808
+            },
+            {
+                "latitude": 39.983451634228,
+                "longitude": -105.22859577796
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_ENT_2_Interlocken",
+        "spoken_name": "McCaslin Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.957059937465,
+                "longitude": -105.16479829587
+            },
+            {
+                "latitude": 39.956954054267,
+                "longitude": -105.16487406827
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_ENT_3_Wadsworth",
+        "spoken_name": "Interlocken Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.933816535842,
+                "longitude": -105.12580871413
+            },
+            {
+                "latitude": 39.933724499284,
+                "longitude": -105.12586101721
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_ENT_4_Promenade",
+        "spoken_name": "Wadsworth Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.915249164934,
+                "longitude": -105.09428769507
+            },
+            {
+                "latitude": 39.915100014922,
+                "longitude": -105.0942970828
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_ENT_5_Sheridan",
+        "spoken_name": "Church Ranch Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.886280921306,
+                "longitude": -105.07210557274
+            },
+            {
+                "latitude": 39.886351411509,
+                "longitude": -105.07199359051
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_ENT_6_Lowell",
+        "spoken_name": "Sheridan Entrance onto US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.858179728529,
+                "longitude": -105.05462842593
+            },
+            {
+                "latitude": 39.8582363497,
+                "longitude": -105.05451309094
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_1_McCaslin",
+        "spoken_name": "Exiting onto McCaslin from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.958205317225,
+                "longitude": -105.16772650225
+            },
+            {
+                "latitude": 39.95826699565,
+                "longitude": -105.16758367462
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_2_Flatiron",
+        "spoken_name": "Exiting onto Flatiron Crossing from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.939203900058,
+                "longitude": -105.1377283492
+            },
+            {
+                "latitude": 39.939259426064,
+                "longitude": -105.13754595898
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_3_Interlocken",
+        "spoken_name": "Exiting onto Interlocken from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.935397659275,
+                "longitude": -105.12984826925
+            },
+            {
+                "latitude": 39.935473754689,
+                "longitude": -105.12966856125
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_4_Wadsworth",
+        "spoken_name": "Exiting onto Wadsworth from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.918285853251,
+                "longitude": -105.09929467694
+            },
+            {
+                "latitude": 39.918360939115,
+                "longitude": -105.09918872969
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_5_104th",
+        "spoken_name": "Exiting onto Church Ranch from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.88846013478,
+                "longitude": -105.07327254475
+            },
+            {
+                "latitude": 39.88849820858,
+                "longitude": -105.07319073738
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_6_Sheridan",
+        "spoken_name": "Exiting onto Sheridan from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.862417571486,
+                "longitude": -105.0565808542
+            },
+            {
+                "latitude": 39.862417571486,
+                "longitude": -105.05643601491
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_7_Federal",
+        "spoken_name": "Exiting onto Federal from US36 Eastbound",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.835892040448,
+                "longitude": -105.02594141806
+            },
+            {
+                "latitude": 39.83595794829,
+                "longitude": -105.02583144749
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_EXT_END",
+        "spoken_name": "End of US36 Eastbound express lanes",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.834859620067,
+                "longitude": -105.02113594614
+            },
+            {
+                "latitude": 39.83502439203,
+                "longitude": -105.02101658783
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_1_Overlook",
+        "spoken_name": "Eastbound Overlook express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.98417263384,
+                "longitude": -105.22947658302
+            },
+            {
+                "latitude": 39.984066792632,
+                "longitude": -105.22957113089
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_2_McCaslin",
+        "spoken_name": "Eastbound McCaslin express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.972826804817,
+                "longitude": -105.20475254563
+            },
+            {
+                "latitude": 39.972991759195,
+                "longitude": -105.20464391617
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_3_Interlocken",
+        "spoken_name": "Eastbound Interlocken express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.960399951546,
+                "longitude": -105.17228357502
+            },
+            {
+                "latitude": 39.960250899908,
+                "longitude": -105.17238751062
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_4_Wadsworth",
+        "spoken_name": "Eastbound Wadsworth express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.937881294773,
+                "longitude": -105.13408870678
+            },
+            {
+                "latitude": 39.937733222342,
+                "longitude": -105.13421074729
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_5_Promenade",
+        "spoken_name": "Eastbound Promenade express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.918493398765,
+                "longitude": -105.09918434827
+            },
+            {
+                "latitude": 39.918648712799,
+                "longitude": -105.09904822616
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_6_Sheridan",
+        "spoken_name": "Eastbound Sheridan express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.893508413631,
+                "longitude": -105.07682848932
+            },
+            {
+                "latitude": 39.893602562134,
+                "longitude": -105.07660720707
+            }
+        ]
+    },
+    {
+        "name": "US36_EB_HWY_7_Lowell",
+        "spoken_name": "Eastbound Lowell express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "EB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.867846322365,
+                "longitude": -105.05888524765
+            },
+            {
+                "latitude": 39.867913228863,
+                "longitude": -105.05864317828
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_1_Lowell",
+        "spoken_name": "North Pecos Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.831559628662,
+                "longitude": -105.00753526789
+            },
+            {
+                "latitude": 39.831447372142,
+                "longitude": -105.00757013661
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_2_Sheridan",
+        "spoken_name": "Federal Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.837678006711,
+                "longitude": -105.02740460193
+            },
+            {
+                "latitude": 39.837557521906,
+                "longitude": -105.02734425223
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_3_Promenade",
+        "spoken_name": "Sheridan Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.865159066442,
+                "longitude": -105.05690644207
+            },
+            {
+                "latitude": 39.865115832823,
+                "longitude": -105.05706066909
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_4_Wadsworth",
+        "spoken_name": "104th Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.888202099692,
+                "longitude": -105.07162805001
+            },
+            {
+                "latitude": 39.888127495284,
+                "longitude": -105.07172528008
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_5_Interlocken",
+        "spoken_name": "Northbound Wadsworth Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.915726359668,
+                "longitude": -105.09171735982
+            },
+            {
+                "latitude": 39.91560806913,
+                "longitude": -105.09161275367
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_6_Interlocken",
+        "spoken_name": "Southbound Wadsworth Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.917192567651,
+                "longitude": -105.09452964299
+            },
+            {
+                "latitude": 39.917343770282,
+                "longitude": -105.09450215035
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_7_McCaslin",
+        "spoken_name": "Northwest Parkway Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.93598032202,
+                "longitude": -105.12797413227
+            },
+            {
+                "latitude": 39.935881604359,
+                "longitude": -105.12800497767
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_ENT_8_Overlook",
+        "spoken_name": "McCaslin Entrance onto US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "ENT",
+        "gate_coords": [
+            {
+                "latitude": 39.958738838173,
+                "longitude": -105.16681803452
+            },
+            {
+                "latitude": 39.958626275783,
+                "longitude": -105.16687436091
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_1_Federal",
+        "spoken_name": "Exiting onto Fedreral from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.836195591374,
+                "longitude": -105.0236370868
+            },
+            {
+                "latitude": 39.836337704452,
+                "longitude": -105.023460061
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_2_Sheridan",
+        "spoken_name": "Exiting onto Sheridan from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.857960469406,
+                "longitude": -105.05356037349
+            },
+            {
+                "latitude": 39.857973852639,
+                "longitude": -105.05343430966
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_3_104th",
+        "spoken_name": "Exiting onto 104th from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.884868607276,
+                "longitude": -105.06983260912
+            },
+            {
+                "latitude": 39.884910799371,
+                "longitude": -105.06969581646
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_4_Wadsworth",
+        "spoken_name": "Exiting onto Wasworth from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.914612850955,
+                "longitude": -105.0910290091
+            },
+            {
+                "latitude": 39.914642681195,
+                "longitude": -105.09086941767
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_5_Interlocken",
+        "spoken_name": "Exiting onto Interlocken from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.933549903205,
+                "longitude": -105.12378175729
+            },
+            {
+                "latitude": 39.933603377111,
+                "longitude": -105.12370665544
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_6_McCaslin",
+        "spoken_name": "Exiting onto McCaslin from US36 Westbound",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.957027610818,
+                "longitude": -105.1629246468
+            },
+            {
+                "latitude": 39.957148913756,
+                "longitude": -105.16276639647
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_EXT_END",
+        "spoken_name": "End of US36 Westbound express lanes",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "EXT",
+        "gate_coords": [
+            {
+                "latitude": 39.977501875514,
+                "longitude": -105.21455654813
+            },
+            {
+                "latitude": 39.977359541122,
+                "longitude": -105.21467791809
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_1_Lowell",
+        "spoken_name": "Westbound Lowell express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.830582674607,
+                "longitude": -105.00478980577
+            },
+            {
+                "latitude": 39.830396779186,
+                "longitude": -105.00488033032
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_2_Sheridan",
+        "spoken_name": "Westbound Sheridan express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.836939604089,
+                "longitude": -105.02768081982
+            },
+            {
+                "latitude": 39.837112609402,
+                "longitude": -105.02758962472
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_3_Promenade",
+        "spoken_name": "Westbound Promenade express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.854453301405,
+                "longitude": -105.05164728179
+            },
+            {
+                "latitude": 39.854552136422,
+                "longitude": -105.05140856519
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_4_Wadsworth",
+        "spoken_name": "Westbound Wadsworth express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.887256025997,
+                "longitude": -105.07192439309
+            },
+            {
+                "latitude": 39.887352241166,
+                "longitude": -105.0717024403
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_5_Interlocken",
+        "spoken_name": "Westbound Interlocken express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.908077187582,
+                "longitude": -105.0861020302
+            },
+            {
+                "latitude": 39.908174916611,
+                "longitude": -105.08587404243
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_6_McCaslin",
+        "spoken_name": "Westbound McCaslin express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.930556409462,
+                "longitude": -105.11882140368
+            },
+            {
+                "latitude": 39.93071118194,
+                "longitude": -105.11863029629
+            }
+        ]
+    },
+    {
+        "name": "US36_WB_HWY_7_Overlook",
+        "spoken_name": "Westbound Overlook express lane is coming up",
+        "road_name": "US36",
+        "travel_direction": "WB",
+        "type": "HWY",
+        "gate_coords": [
+            {
+                "latitude": 39.954227521881,
+                "longitude": -105.15883249794
+            },
+            {
+                "latitude": 39.954340605528,
+                "longitude": -105.15866217767
+            }
+        ]
+    }
+]
