@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, Response
+from fastapi.middleware.cors import CORSMiddleware
 from starlette.status import HTTP_204_NO_CONTENT
 
 # from common.logger import logger
@@ -26,8 +27,16 @@ logger = logging.getLogger(__name__)
 DEBUG = os.environ.get("DEBUG")
 app = FastAPI()
 
-app.include_router(api_router, prefix="/api", tags=["api"])
+# Allow CORS requests from any origin
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
+app.include_router(api_router, prefix="/api", tags=["api"])
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):

@@ -1,11 +1,13 @@
 import json
 from datetime import datetime
 from time import sleep
+import os
 
 from common.custom_types import Coordinate
 from data_collection.traffic_data import get_traffic_from_api
 
-express_lanes_file = "../Object-models/All_US36_express_lanes.json"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+express_lanes_file = os.path.join(base_dir, '../Object-models/All_US36_express_lanes.json')
 
 def print_duration_speed_traffic(data: dict):
     routes = data["routes"]
@@ -51,9 +53,10 @@ for lane in express_lanes:
     
     results.append(lane_data)
 
-with open(f'traffic_data_gmaps_api/traffic_data_mm-dd-hh-mm__{datetime.now().month}_{datetime.now().day}_{datetime.now().hour}_{datetime.now().minute}_UTC.json', 'w') as outfile:
+traffic_data_file = os.path.join(base_dir, f'traffic_data_gmaps_api/traffic_data_mm-dd-hh-mm__{datetime.now().month}_{datetime.now().day}_{datetime.now().hour}_{datetime.now().minute}_UTC.json')
+
+with open(traffic_data_file, 'w') as outfile:
     json.dump(results, outfile, indent=4)
-#AI code to get traffic data into JSON file
 
 
 #below code prints to the console for testing

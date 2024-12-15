@@ -5,6 +5,8 @@ import urllib.parse
 import requests
 from dotenv import load_dotenv
 
+from typing import Tuple
+
 from src.common.custom_types import Coordinate
 
 load_dotenv()
@@ -24,7 +26,7 @@ def get_traffic_from_api(origin: Coordinate, destination: Coordinate) -> dict:
 
 def get_duration_in_traffic(
     origin: Coordinate, destination: Coordinate
-) -> tuple[int, int]:
+) -> Tuple[int, int]:
     data = get_traffic_from_api(origin, destination)
     routes = data["routes"]
     route = routes[0]
