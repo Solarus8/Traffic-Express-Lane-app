@@ -27,6 +27,9 @@ async def durations(request: Request, gate: Gate):
     print(express_lane_name, express_lane_road, express_lane_direction)
     for lane in express_lanes:
         #TODO: Add effective_start and effective_end for querying
+        #
+        #
+        #
         start_coordinate = Coordinate(**lane["lines_start"])
         end_coordinate = Coordinate(**lane["lines_end"])
         if all([
